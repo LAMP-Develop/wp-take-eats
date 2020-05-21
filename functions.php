@@ -69,7 +69,7 @@ function arphabet_widgets_init()
 {
     register_sidebar([
         'name' => 'サイドバー',
-        'id' => 'side-bar',
+        'id' => 'sidebar',
         'before_widget' => '<div class="sidebar">',
         'after_widget' => '</div>',
         'before_title' => '<h3 class="sidebar-ttl">',
@@ -100,7 +100,7 @@ function twpp_enqueue_styles()
         'main-style',
         get_template_directory_uri().'/dist/css/style.css',
         [],
-        '1.0.０',
+        '1.0.0',
         'all'
     );
 }
@@ -113,7 +113,7 @@ function add_my_scripts()
         'base-script',
         get_template_directory_uri().'/dist/js/bundle.js',
         [],
-        '1.0.０',
+        '1.0.0',
         true
     );
 }
