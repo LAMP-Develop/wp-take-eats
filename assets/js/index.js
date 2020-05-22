@@ -3,10 +3,17 @@ import "../sass/app.scss";
 
 // JSインポート
 import "bootstrap";
+import videojs from "video.js";
 
 $(function ($) {
   let w = $(window).width();
   let md = 991.98;
+
+  videojs("pv", {
+    controls: true,
+    autoplay: false,
+    preload: "auto",
+  });
 
   if (w <= md) {
     // 画像src切り替え
@@ -28,5 +35,10 @@ $(function ($) {
   // スクロールイベント
   $(window).on("scroll", function () {
     let s = $(window).scrollTop();
+    if (s > 300) {
+      $(".header .navbar").addClass("scroll");
+    } else {
+      $(".header .navbar").removeClass("scroll");
+    }
   });
 });
