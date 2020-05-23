@@ -1,0 +1,38 @@
+.form {
+  .wpcf7 {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  &-must {
+    &::after {
+      content: "※";
+      color: #ff8811;
+      font-size: 10px;
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 5px;
+    }
+  }
+  &__table {
+    tr {
+      th,
+      td {
+        @include media-breakpoint-down(md) {
+          display: block;
+          padding: 0;
+          margin-bottom: 0.5rem;
+        }
+      }
+      td {
+        @include media-breakpoint-down(md) {
+          margin-bottom: 1.5rem;
+        }
+      }
+      &:last-child {
+        td {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

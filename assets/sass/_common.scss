@@ -3,9 +3,24 @@ body {
   letter-spacing: 1px;
 }
 
+p {
+  @include media-breakpoint-down(md) {
+    font-size: $font-size-sm;
+  }
+}
+
 img {
   max-width: 100%;
   vertical-align: bottom;
+}
+
+table {
+  border-collapse: collapse;
+  th,
+  td {
+    font-size: $font-size-sm;
+    padding: 1rem;
+  }
 }
 
 .btn {

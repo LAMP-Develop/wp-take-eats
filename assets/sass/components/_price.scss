@@ -1,0 +1,75 @@
+.price {
+  &__card {
+    margin: 2rem 0;
+    font-size: 0;
+    text-align: center;
+    img {
+      overflow: hidden;
+      box-shadow: 0 0 2rem rgba(#000000, 0.1);
+      border-radius: 0.8rem;
+    }
+  }
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 0 1%;
+    @include media-breakpoint-down(md) {
+      padding: 0;
+    }
+    &__inner {
+      width: 49.5%;
+      background-color: $light;
+      box-sizing: border-box;
+      padding: 4rem 3rem;
+      @include media-breakpoint-down(md) {
+        width: 100%;
+        padding: 2rem 1rem;
+        margin: 2% 0;
+      }
+      &__table {
+        overflow: hidden;
+        box-sizing: border-box;
+        border-radius: 0.8rem;
+        box-shadow: 0 0 2rem rgba(#000000, 0.1);
+        padding: 1rem;
+        margin-top: 2rem;
+        background-color: $white;
+        table {
+          width: 100%;
+          border-collapse: collapse;
+          tr {
+            th,
+            td {
+              padding: 1rem 0.5rem;
+              font-size: $font-size-sm;
+              border-bottom: solid 1px $light;
+            }
+            th {
+              font-weight: bold;
+            }
+            &:last-child {
+              th,
+              td {
+                border-bottom: 0;
+              }
+            }
+          }
+        }
+        &.method {
+          padding: 0;
+          th,
+          td {
+            padding: 1rem;
+          }
+          th {
+            background-color: #ff8811;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}

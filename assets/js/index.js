@@ -9,10 +9,20 @@ $(function ($) {
   let w = $(window).width();
   let md = 991.98;
 
-  videojs("pv", {
-    controls: true,
-    autoplay: false,
-    preload: "auto",
+  // 動画処理
+  if ($("#pv").length) {
+    videojs("pv", {
+      controls: true,
+      autoplay: false,
+      preload: "auto",
+    });
+  }
+
+  // デモ画面
+  $(".features__demos__btns-btn").on("click", function () {
+    $(".features__demos__btns-btn").removeClass("active");
+    $(this).addClass("active");
+    $("#demo-img").attr("src", $(this).attr("data-src"))
   });
 
   if (w <= md) {

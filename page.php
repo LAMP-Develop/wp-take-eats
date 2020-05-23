@@ -1,10 +1,6 @@
-<?php
-$home = esc_url(home_url());
-$wp_url = get_template_directory_uri();
-get_header(); ?>
+<?php get_header(); ?>
 <section class="sec">
 <div class="container">
-<h1><?php the_title(); ?></h1>
 <?php the_content(); ?>
 </div>
 </section>

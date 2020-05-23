@@ -13,6 +13,16 @@
       background-color: $white;
       box-shadow: 0 0 3px rgba($body-color, 0.1);
     }
+    &-brand {
+      font-size: 0;
+      img {
+        @include media-breakpoint-down(md) {
+          width: 170px;
+          height: auto;
+          margin-bottom: 6px;
+        }
+      }
+    }
     &-toggler {
       padding: 0;
       &-icon {
@@ -37,6 +47,18 @@
     }
     .nav-link {
       padding: 0.5rem 1rem;
+      @include media-breakpoint-down(md) {
+        text-align: center;
+        font-size: 1rem;
+        padding: 1rem;
+      }
+    }
+    .btn {
+      @include media-breakpoint-down(md) {
+        margin-top: 1rem;
+        display: block;
+        font-size: 1.25rem;
+      }
     }
   }
 }
