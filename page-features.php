@@ -6,6 +6,10 @@ $img_url = get_template_directory_uri().'/dist/images/';
 get_header(); ?>
 <section class="sec features">
 <div class="container">
+<div class="d-flex justify-content-center flex-wrap mb-5">
+<div class="text-center mr-md-3 mb-md-0 mb-3"><a class="btn btn-outline-danger" href="https://demo.take-eats.jp/shop/" target="_blank">店舗ページのデモをみる<i class="fas fa-window-restore ml-2 small"></i></a></div>
+<div class="text-center"><a class="btn btn-outline-danger" href="https://demo.take-eats.jp/admin/" target="_blank">管理画面のデモをみる<i class="fas fa-window-restore ml-2 small"></i></a></div>
+</div>
 <p class="text-md-center font-weight-bold">TakeEatsなら、カンタンに商品登録・管理が可能です。
 <br>受取時間や通知も設定でき、テイクアウト予約に必要なシステムを導入いただけます。</p>
 <div class="features__demos">
@@ -45,31 +49,66 @@ get_header(); ?>
 
 <section class="sec features bg-light">
 <div class="container">
-<h2 class="text-center font-weight-bold h4 mb-md-5 mb-4">機能の特徴</h2>
-<div class="features__lists">
-<div class="features__lists__inner">
-<div class="features__lists__inner-img">
-<img src="<?php echo $img_url; ?>feature_icon_1.png" alt="" srcset="<?php echo $img_url; ?>feature_icon_1.png 1x, <?php echo $img_url; ?>feature_icon_1@2x.png 2x">
+<h2 class="text-center font-weight-bold h4 mb-md-5 mb-4">オプション機能</h2>
+<div class="features__option">
+<div class="home__system__slide__inner">
+<div class="home__system__slide-thumbnail">
+<img src="<?php echo $img_url; ?>option_icon_1.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_1.png 1x, <?php echo $img_url; ?>option_icon_1@2x.png 2x">
 </div>
-<h3>店舗のオリジナルページ</h3>
-<p>1つ1つの店舗にURLを発行し、ホームページのように運用いただくことが可能です。</p>
+<h3>カード決済</h3>
+<p>カテゴリーの設定が可能</p>
 </div>
-<div class="features__lists__inner">
-<div class="features__lists__inner-img">
-<img src="<?php echo $img_url; ?>feature_icon_2.png" alt="" srcset="<?php echo $img_url; ?>feature_icon_2.png 1x, <?php echo $img_url; ?>feature_icon_2@2x.png 2x">
+<div class="home__system__slide__inner">
+<div class="home__system__slide-thumbnail">
+<img src="<?php echo $img_url; ?>option_icon_2.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_2.png 1x, <?php echo $img_url; ?>option_icon_2@2x.png 2x">
 </div>
-<h3>受け取り時間の設定</h3>
-<p>1つ1つの店舗にURLを発行し、ホームページのように運用いただくことが可能です。</p>
+<h3>カード決済</h3>
+<p>カテゴリーの設定が可能</p>
 </div>
-<div class="features__lists__inner">
-<div class="features__lists__inner-img">
-<img src="<?php echo $img_url; ?>feature_icon_3.png" alt="" srcset="<?php echo $img_url; ?>feature_icon_3.png 1x, <?php echo $img_url; ?>feature_icon_3@2x.png 2x">
+<div class="home__system__slide__inner">
+<div class="home__system__slide-thumbnail">
+<img src="<?php echo $img_url; ?>option_icon_3.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_3.png 1x, <?php echo $img_url; ?>option_icon_3@2x.png 2x">
 </div>
-<h3>ご注文はFAX・メールで通知</h3>
-<p>1つ1つの店舗にURLを発行し、ホームページのように運用いただくことが可能です。</p>
+<h3>カード決済</h3>
+<p>カテゴリーの設定が可能</p>
+</div>
+<div class="home__system__slide__inner">
+<div class="home__system__slide-thumbnail">
+<img src="<?php echo $img_url; ?>option_icon_4.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_4.png 1x, <?php echo $img_url; ?>option_icon_4@2x.png 2x">
+</div>
+<h3>カード決済</h3>
+<p>カテゴリーの設定が可能</p>
+</div>
+<div class="home__system__slide__inner">
+<div class="home__system__slide-thumbnail">
+<img src="<?php echo $img_url; ?>option_icon_5.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_5.png 1x, <?php echo $img_url; ?>option_icon_5@2x.png 2x">
+</div>
+<h3>カード決済</h3>
+<p>カテゴリーの設定が可能</p>
+</div>
+<div class="home__system__slide__inner">
+<div class="home__system__slide-thumbnail">
+<img src="<?php echo $img_url; ?>option_icon_6.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_6.png 1x, <?php echo $img_url; ?>option_icon_6@2x.png 2x">
+</div>
+<h3>カード決済</h3>
+<p>カテゴリーの設定が可能</p>
+</div>
+<div class="home__system__slide__inner">
+<div class="home__system__slide-thumbnail">
+<img src="<?php echo $img_url; ?>option_icon_7.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_7.png 1x, <?php echo $img_url; ?>option_icon_7@2x.png 2x">
+</div>
+<h3>カード決済</h3>
+<p>カテゴリーの設定が可能</p>
+</div>
+<div class="home__system__slide__inner">
+<div class="home__system__slide-thumbnail">
+<img src="<?php echo $img_url; ?>option_icon_8.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_8.png 1x, <?php echo $img_url; ?>option_icon_8@2x.png 2x">
+</div>
+<h3>カード決済</h3>
+<p>カテゴリーの設定が可能</p>
 </div>
 </div>
-<!-- features__lists -->
+<!-- features__option -->
 </div>
 </section>
 
@@ -109,6 +148,9 @@ get_header(); ?>
 </div>
 </div>
 <!-- features__steps -->
+<div class="mt-md-5 mt-4 text-center">
+<a class="btn btn-outline-danger" href="https://demo.take-eats.jp/shop/" target="_blank">店舗ページのデモをみる<i class="fas fa-window-restore ml-2 small"></i></a>
+</div>
 </div>
 </section>
 <?php get_footer();

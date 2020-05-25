@@ -177,4 +177,16 @@
       }
     }
   }
+  &__option {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    .home__system__slide__inner {
+      width: 24%;
+      margin: 0 0 1rem;
+      border: 0;
+      box-shadow: 0 0 2rem rgba(#000000, 0.1);
+    }
+  }
 }

@@ -4,12 +4,32 @@ import "../sass/app.scss";
 // JSインポート
 import "bootstrap";
 import videojs from "video.js";
+import slick from "slick-carousel";
 
 $(function ($) {
   let w = $(window).width();
   let md = 991.98;
 
+  // padding調整
   $("main").css("padding-top", $(".header").outerHeight() + "px");
+
+  // slick
+  $(".home__system__slide").slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    arrows: true,
+    dots: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
+  });
 
   // 動画処理
   if ($("#pv").length) {

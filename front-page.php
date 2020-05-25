@@ -4,23 +4,22 @@ $wp_url = get_template_directory_uri();
 $img_url = get_template_directory_uri().'/dist/images/';
 get_header(); ?>
 <section class="mv">
-<img class="mv-illust" src="<?php echo $img_url; ?>mv_illust_1.png" alt="背景">
 <div class="container">
 <div class="mv__inner">
 <div class="mv__inner__left">
 <p class="mv__inner__left-balloon">お持ち帰り</p>
 <h1 class="mv__inner__left-ttl">テイクアウト専用<br>オーダー予約システム</h1>
-<p>「信用」を、じぶんで積み上げられるものへ。
-<br>まじめな人が、ちゃんとトクする世の中へ。</p>
+<p>TakeEatsは飲食店オーナー様向けのテイクアウト（お持ち帰り）に特化した予約・決済システムです。
+<br>新型コロナウイルスの影響で従来の営業ができなくなった飲食店様から寄せられた多くのご要望にお応えするために京都で生まれました。</p>
 </div>
 <div class="mv__inner__right">
+<div class="mv__inner__right-ribbon">サービス紹介30秒動画</div>
 <video id="pv" class="video-js" poster="<?php echo $img_url; ?>video_poster.png">
 <source src="<?php echo $wp_url; ?>/dist/video/take-eats-pv_cm.mp4" type="video/mp4">
 </video>
 </div>
 </div>
 <!-- mv__inner -->
-<a class="topscroll" href="#about"><i class="fas fa-arrow-down"></i></a>
 </div>
 <img class="mv-illust-2" src="<?php echo $img_url; ?>mv_illust_2.png" alt="背景">
 </section>
@@ -46,29 +45,11 @@ foreach ($posts as $post): setup_postdata($post); ?>
 </div>
 </section>
 <!-- homenews -->
-<section id="about" class="sec home__about">
-<div class="container">
-<div class="home__about__wrap">
-<div class="home__about__wrap__inner">
-<img src="<?php echo $img_url; ?>about_img.png" alt="about" srcset="<?php echo $img_url; ?>about_img.png 1x, <?php echo $img_url; ?>about_img@2x.png 2x">
-</div>
-<div class="home__about__wrap__inner">
-<h2 class="ttl-h2">
-<span>About</span>
-<span>TakeEatsについて</span>
-</h2>
-<p>「信用」を、じぶんで積み上げられるものへ。まじめな人が、ちゃんとトクする世の中へ。
-<br>「信用」を、じぶんで積み上げられるものへ。まじめな人が、ちゃんとトクする世の中へ。</p>
-</div>
-</div>
-</div>
-</section>
-<!-- about -->
 <section id="features" class="sec home__features">
 <div class="container">
 <h2 class="ttl-h2 text-center">
 <span>Service Features</span>
-<span>3つの特徴</span>
+<span>TakeEatsが選ばれる3つの理由</span>
 </h2>
 </div>
 <div class="home__features__wrap">
@@ -103,6 +84,84 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <!-- home__features__wrap -->
 </section>
 <!-- features -->
+<section id="system" class="sec home__system">
+<div class="container">
+<h2 class="ttl-h2 text-center">
+<span>system</span>
+<span>お店によって様々な機能を自由に</span>
+</h2>
+<div class="home__system__slide">
+<div>
+<div class="home__system__slide__inner">
+<div class="home__system__slide-thumbnail">
+<img src="<?php echo $img_url; ?>option_icon_1.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_1.png 1x, <?php echo $img_url; ?>option_icon_1@2x.png 2x">
+</div>
+<h3>カード決済</h3>
+<p>カテゴリーの設定が可能</p>
+</div>
+</div>
+<div>
+<div class="home__system__slide__inner">
+<div class="home__system__slide-thumbnail">
+<img src="<?php echo $img_url; ?>option_icon_2.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_2.png 1x, <?php echo $img_url; ?>option_icon_2@2x.png 2x">
+</div>
+<h3>カード決済</h3>
+<p>カテゴリーの設定が可能</p>
+</div>
+</div>
+<div>
+<div class="home__system__slide__inner">
+<div class="home__system__slide-thumbnail">
+<img src="<?php echo $img_url; ?>option_icon_3.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_3.png 1x, <?php echo $img_url; ?>option_icon_3@2x.png 2x">
+</div>
+<h3>カード決済</h3>
+<p>カテゴリーの設定が可能</p>
+</div>
+</div>
+<div>
+<div class="home__system__slide__inner">
+<div class="home__system__slide-thumbnail">
+<img src="<?php echo $img_url; ?>option_icon_4.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_4.png 1x, <?php echo $img_url; ?>option_icon_4@2x.png 2x">
+</div>
+<h3>カード決済</h3>
+<p>カテゴリーの設定が可能</p>
+</div>
+</div>
+<div>
+<div class="home__system__slide__inner">
+<div class="home__system__slide-thumbnail">
+<img src="<?php echo $img_url; ?>option_icon_9.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_9.png 1x, <?php echo $img_url; ?>option_icon_9@2x.png 2x">
+</div>
+<h3>カード決済</h3>
+<p>カテゴリーの設定が可能</p>
+</div>
+</div>
+<div>
+<div class="home__system__slide__inner">
+<div class="home__system__slide-thumbnail">
+<img src="<?php echo $img_url; ?>option_icon_10.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_10.png 1x, <?php echo $img_url; ?>option_icon_10@2x.png 2x">
+</div>
+<h3>カード決済</h3>
+<p>カテゴリーの設定が可能</p>
+</div>
+</div>
+<div>
+<div class="home__system__slide__inner">
+<div class="home__system__slide-thumbnail">
+<img src="<?php echo $img_url; ?>option_icon_11.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_11.png 1x, <?php echo $img_url; ?>option_icon_11@2x.png 2x">
+</div>
+<h3>カード決済</h3>
+<p>カテゴリーの設定が可能</p>
+</div>
+</div>
+</div>
+<!-- home__system__slide -->
+<div class="mt-md-5 mt-4 text-center">
+<a class="btn btn-outline-primary" href="<?php echo $home; ?>/features/">詳しくみる</a>
+</div>
+</div>
+</section>
+<!-- system -->
 <section id="flow" class="sec home__flow">
 <img class="home__flow-illust" src="<?php echo $img_url; ?>flow_illust_1.png" alt="背景">
 <div class="container">
@@ -148,7 +207,7 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <li class="home__flow__list__inner">
 <div class="home__flow__list__inner-step">STEP<span>05</span></div>
 <div class="home__flow__list__inner-txt">
-<h3>ご利用スタート</h3>
+<h3>ご利用スタート<span class="txt-sm text-danger ml-3">最短1日</span></h3>
 <p>1つ1つの店舗にURLを発行し、ホームページのように運用いただ</p>
 </div>
 </li>
@@ -160,7 +219,7 @@ foreach ($posts as $post): setup_postdata($post); ?>
 </div>
 </section>
 <!-- flow -->
-<section id="case" class="sec home__case">
+<!-- <section id="case" class="sec home__case">
 <div class="container">
 <h2 class="ttl-h2 text-center">
 <span>case</span>
@@ -175,7 +234,6 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <a class="btn btn-light font-weight-bold" href="">導入事例を詳しくみる</a>
 </div>
 </div>
-<!-- home__case__list__inner -->
 <div class="home__case__list__inner">
 <div class="home__case__list__inner-img">
 <img src="<?php echo $img_url; ?>musashi_logo.png" alt="寿しのむさし">
@@ -184,7 +242,6 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <a class="btn btn-light font-weight-bold" href="">導入事例を詳しくみる</a>
 </div>
 </div>
-<!-- home__case__list__inner -->
 <div class="home__case__list__inner">
 <div class="home__case__list__inner-img">
 <img src="<?php echo $img_url; ?>musashi_logo.png" alt="寿しのむさし">
@@ -193,9 +250,7 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <a class="btn btn-light font-weight-bold" href="">導入事例を詳しくみる</a>
 </div>
 </div>
-<!-- home__case__list__inner -->
 </div>
-<!-- home__case__list -->
 </div>
-</section>
+</section> -->
 <?php get_footer();

@@ -13,8 +13,8 @@ $img_url = get_template_directory_uri().'/dist/images/'; ?>
 <span>導入のご検討・ご相談はこちらから</span>
 </h2>
 <div class="footer__cta__btns">
-<a href="<?php $home; ?>/request/">資料請求</a>
 <a href="<?php $home; ?>/contact/">お問い合わせ</a>
+<a href="<?php $home; ?>/request/">お申し込み</a>
 </div>
 </div>
 <!-- cta -->

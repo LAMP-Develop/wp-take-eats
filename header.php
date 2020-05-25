@@ -12,6 +12,10 @@ $img_url = get_template_directory_uri().'/dist/images/'; ?>
 </head>
 <body>
 
+<?php if (is_home() || is_front_page()): ?>
+<img class="mv-illust" src="<?php echo $img_url; ?>mv_illust_1.png" alt="背景">
+<?php endif; ?>
+
 <header class="header">
 <nav class="navbar navbar-expand-md">
 <a class="navbar-brand" href="<?php $home; ?>/"><img src="<?php echo $wp_url; ?>/dist/images/logo.png" alt="<?php bloginfo("name"); ?>" srcset="<?php echo $wp_url; ?>/dist/images/logo.png 1x, <?php echo $wp_url; ?>/dist/images/logo@2x.png 2x"></a>
@@ -22,12 +26,14 @@ $img_url = get_template_directory_uri().'/dist/images/'; ?>
 <ul class="navbar-nav ml-auto">
 <li class="nav-item"><a class="nav-link text-body font-weight-bold" href="<?php $home; ?>/features/">機能紹介</a></li>
 <li class="nav-item"><a class="nav-link text-body font-weight-bold" href="<?php $home; ?>/price/">料金</a></li>
-<li class="nav-item"><a class="nav-link text-body font-weight-bold" href="<?php $home; ?>/case/">導入事例</a></li>
+<li class="nav-item"><a class="nav-link text-body font-weight-bold" href="<?php $home; ?>/marketing/">集客・販売促進</a></li>
+<li class="nav-item"><a class="nav-link text-body font-weight-bold" href="<?php $home; ?>/flow/">導入の流れ</a></li>
+<!-- <li class="nav-item"><a class="nav-link text-body font-weight-bold" href="<?php $home; ?>/case/">導入事例</a></li> -->
 <li class="nav-item"><a class="nav-link text-body font-weight-bold" href="<?php $home; ?>/contact/">お問い合わせ</a></li>
 </ul>
 <ul class="navbar-nav ml-auto">
 <li class="nav-item active">
-<a class="btn btn-primary font-weight-bold" href="<?php $home; ?>/request/">資料請求</a>
+<a class="btn btn-primary font-weight-bold" href="<?php $home; ?>/request/">お申し込み</a>
 </li>
 </ul>
 </div>
