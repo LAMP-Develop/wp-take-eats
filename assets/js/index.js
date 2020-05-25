@@ -9,6 +9,8 @@ $(function ($) {
   let w = $(window).width();
   let md = 991.98;
 
+  $("main").css("padding-top", $(".header").outerHeight() + "px");
+
   // 動画処理
   if ($("#pv").length) {
     videojs("pv", {
@@ -22,7 +24,7 @@ $(function ($) {
   $(".features__demos__btns-btn").on("click", function () {
     $(".features__demos__btns-btn").removeClass("active");
     $(this).addClass("active");
-    $("#demo-img").attr("src", $(this).attr("data-src"))
+    $("#demo-img").attr("src", $(this).attr("data-src"));
   });
 
   if (w <= md) {

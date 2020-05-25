@@ -12,7 +12,7 @@ $img_url = get_template_directory_uri().'/dist/images/'; ?>
 </head>
 <body>
 
-<header class="header sticky-top">
+<header class="header">
 <nav class="navbar navbar-expand-md">
 <a class="navbar-brand" href="<?php $home; ?>/"><img src="<?php echo $wp_url; ?>/dist/images/logo.png" alt="<?php bloginfo("name"); ?>" srcset="<?php echo $wp_url; ?>/dist/images/logo.png 1x, <?php echo $wp_url; ?>/dist/images/logo@2x.png 2x"></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
