@@ -17,7 +17,7 @@ $img_url = get_template_directory_uri().'/dist/images/'; ?>
 <?php endif; ?>
 
 <header class="header">
-<nav class="navbar navbar-expand-md">
+<nav class="navbar navbar-expand-lg">
 <a class="navbar-brand" href="<?php $home; ?>/"><img src="<?php echo $wp_url; ?>/dist/images/logo.png" alt="<?php bloginfo("name"); ?>" srcset="<?php echo $wp_url; ?>/dist/images/logo.png 1x, <?php echo $wp_url; ?>/dist/images/logo@2x.png 2x"></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
@@ -41,7 +41,7 @@ $img_url = get_template_directory_uri().'/dist/images/'; ?>
 </header>
 <!-- header -->
 <main>
-<?php if (!is_home() && !is_front_page()): // 下層ページ ?>
+<?php if (!is_home() && !is_front_page() && !is_single()): // 下層ページ ?>
 <section class="sec mv__sub">
 <div class="container">
 <h1><?php the_title(); ?></h1>

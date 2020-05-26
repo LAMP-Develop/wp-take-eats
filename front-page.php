@@ -49,35 +49,35 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <div class="container">
 <h2 class="ttl-h2 text-center">
 <span>Service Features</span>
-<span>TakeEatsが選ばれる3つの理由</span>
+<span>TakeEatsが選ばれる<br class="d-md-none">3つの理由</span>
 </h2>
 </div>
 <div class="home__features__wrap">
 <div class="home__features__wrap__inner">
 <span class="home__features__wrap__inner-no">01</span>
 <div class="home__features__wrap__inner-img">
-<img src="<?php echo $img_url; ?>features_img_1.png" alt="" srcset="<?php echo $img_url; ?>features_img_1.png 1x, <?php echo $img_url; ?>features_img_1@2x.png 2x">
+<img src="<?php echo $img_url; ?>features_img_1.png" alt="初期費用・月額費用0円" srcset="<?php echo $img_url; ?>features_img_1.png 1x, <?php echo $img_url; ?>features_img_1@2x.png 2x">
 </div>
-<h3 class="home__features__wrap__inner-ttl">オリジナルサイトを作成</h3>
-<p>1つ1つの店舗にURLを発行し、ホームページのように運用いただくことが可能です。チラシにもこのURLを添付してお使いください。</p>
+<h3 class="home__features__wrap__inner-ttl">初期費用・月額費用0円</h3>
+<p>初期導入費・月額利用料はすべて無料！費用はご注文時の決済手数料のみで、固定費はかかりません。（オプションをご選択の場合は別途費用）</p>
 </div>
 <!-- home__features__wrap__inner -->
 <div class="home__features__wrap__inner">
 <span class="home__features__wrap__inner-no">02</span>
 <div class="home__features__wrap__inner-img">
-<img src="<?php echo $img_url; ?>features_img_1.png" alt="" srcset="<?php echo $img_url; ?>features_img_2.png 1x, <?php echo $img_url; ?>features_img_2@2x.png 2x">
+<img src="<?php echo $img_url; ?>features_img_1.png" alt="店舗オリジナルページを作成" srcset="<?php echo $img_url; ?>features_img_2.png 1x, <?php echo $img_url; ?>features_img_2@2x.png 2x">
 </div>
-<h3 class="home__features__wrap__inner-ttl">手数料、利用料0円</h3>
-<p>ポータルサイトにも掲載しますが、掲載料や利用料は発生しません。（クレジットカードの場合は決済手数料が発生）</p>
+<h3 class="home__features__wrap__inner-ttl">店舗オリジナルページを作成</h3>
+<p>1つ1つの店舗にURLを発行し、ホームページのように運用いただくことが可能です。SNS等から直接購入ページに来ていただくことが可能です。</p>
 </div>
 <!-- home__features__wrap__inner -->
 <div class="home__features__wrap__inner">
 <span class="home__features__wrap__inner-no">03</span>
 <div class="home__features__wrap__inner-img">
-<img src="<?php echo $img_url; ?>features_img_1.png" alt="" srcset="<?php echo $img_url; ?>features_img_3.png 1x, <?php echo $img_url; ?>features_img_3@2x.png 2x">
+<img src="<?php echo $img_url; ?>features_img_1.png" alt="売上アップの仕組み" srcset="<?php echo $img_url; ?>features_img_3.png 1x, <?php echo $img_url; ?>features_img_3@2x.png 2x">
 </div>
-<h3 class="home__features__wrap__inner-ttl">オリジナルサイトを作成</h3>
-<p>ポータルサイトにも掲載しますが、掲載料や利用料は発生しません。（クレジットカードの場合は決済手数料が発生）</p>
+<h3 class="home__features__wrap__inner-ttl">売上アップの仕組み</h3>
+<p>GoogleMapとの連携やTakeEats公式店舗検索サイトへの掲載、SEO対策など、独自サイトならではのプロモーションが可能です。</p>
 </div>
 <!-- home__features__wrap__inner -->
 </div>
@@ -88,7 +88,7 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <div class="container">
 <h2 class="ttl-h2 text-center">
 <span>system</span>
-<span>お店によって様々な機能を自由に</span>
+<span>お店によって様々な<br class="d-md-none">機能を自由に</span>
 </h2>
 <div class="home__system__slide">
 <div>
@@ -97,7 +97,6 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <img src="<?php echo $img_url; ?>option_icon_1.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_1.png 1x, <?php echo $img_url; ?>option_icon_1@2x.png 2x">
 </div>
 <h3>カード決済</h3>
-<p>カテゴリーの設定が可能</p>
 </div>
 </div>
 <div>
@@ -105,8 +104,7 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <div class="home__system__slide-thumbnail">
 <img src="<?php echo $img_url; ?>option_icon_2.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_2.png 1x, <?php echo $img_url; ?>option_icon_2@2x.png 2x">
 </div>
-<h3>カード決済</h3>
-<p>カテゴリーの設定が可能</p>
+<h3>デザインカスタム</h3>
 </div>
 </div>
 <div>
@@ -114,8 +112,7 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <div class="home__system__slide-thumbnail">
 <img src="<?php echo $img_url; ?>option_icon_3.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_3.png 1x, <?php echo $img_url; ?>option_icon_3@2x.png 2x">
 </div>
-<h3>カード決済</h3>
-<p>カテゴリーの設定が可能</p>
+<h3>FAX転送</h3>
 </div>
 </div>
 <div>
@@ -123,35 +120,23 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <div class="home__system__slide-thumbnail">
 <img src="<?php echo $img_url; ?>option_icon_4.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_4.png 1x, <?php echo $img_url; ?>option_icon_4@2x.png 2x">
 </div>
-<h3>カード決済</h3>
-<p>カテゴリーの設定が可能</p>
+<h3>お気持ちオプション</h3>
 </div>
 </div>
 <div>
 <div class="home__system__slide__inner">
 <div class="home__system__slide-thumbnail">
-<img src="<?php echo $img_url; ?>option_icon_9.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_9.png 1x, <?php echo $img_url; ?>option_icon_9@2x.png 2x">
+<img src="<?php echo $img_url; ?>option_icon_6.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_6.png 1x, <?php echo $img_url; ?>option_icon_6@2x.png 2x">
 </div>
-<h3>カード決済</h3>
-<p>カテゴリーの設定が可能</p>
-</div>
-</div>
-<div>
-<div class="home__system__slide__inner">
-<div class="home__system__slide-thumbnail">
-<img src="<?php echo $img_url; ?>option_icon_10.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_10.png 1x, <?php echo $img_url; ?>option_icon_10@2x.png 2x">
-</div>
-<h3>カード決済</h3>
-<p>カテゴリーの設定が可能</p>
+<h3>お知らせ</h3>
 </div>
 </div>
 <div>
 <div class="home__system__slide__inner">
 <div class="home__system__slide-thumbnail">
-<img src="<?php echo $img_url; ?>option_icon_11.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_11.png 1x, <?php echo $img_url; ?>option_icon_11@2x.png 2x">
+<img src="<?php echo $img_url; ?>option_icon_5.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_5.png 1x, <?php echo $img_url; ?>option_icon_5@2x.png 2x">
 </div>
-<h3>カード決済</h3>
-<p>カテゴリーの設定が可能</p>
+<h3>SNS連携</h3>
 </div>
 </div>
 </div>
@@ -175,55 +160,50 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <li class="home__flow__list__inner">
 <div class="home__flow__list__inner-step">STEP<span>01</span></div>
 <div class="home__flow__list__inner-txt">
-<h3>資料請求</h3>
-<p>1つ1つの店舗にURLを発行し、ホームページのように運用いただ</p>
+<h3>お申し込み</h3>
+<p>お客様のご相談を受け付けます。</p>
 </div>
 </li>
 <!-- home__flow__list__inner -->
 <li class="home__flow__list__inner">
 <div class="home__flow__list__inner-step">STEP<span>02</span></div>
 <div class="home__flow__list__inner-txt">
-<h3>お申し込み</h3>
-<p>1つ1つの店舗にURLを発行し、ホームページのように運用いただ</p>
+<h3>アカウント発行</h3>
+<p>お申込みフォームより必要事項のご入力いただきます。</p>
 </div>
 </li>
 <!-- home__flow__list__inner -->
 <li class="home__flow__list__inner">
 <div class="home__flow__list__inner-step">STEP<span>03</span></div>
 <div class="home__flow__list__inner-txt">
-<h3>サイト導入</h3>
-<p>1つ1つの店舗にURLを発行し、ホームページのように運用いただ</p>
+<h3>メニュー登録</h3>
+<p>システム導入にあたり詳細やご希望をお伺いします。</p>
 </div>
 </li>
 <!-- home__flow__list__inner -->
 <li class="home__flow__list__inner">
 <div class="home__flow__list__inner-step">STEP<span>04</span></div>
 <div class="home__flow__list__inner-txt">
-<h3>商品登録</h3>
-<p>1つ1つの店舗にURLを発行し、ホームページのように運用いただ</p>
-</div>
-</li>
-<!-- home__flow__list__inner -->
-<li class="home__flow__list__inner">
-<div class="home__flow__list__inner-step">STEP<span>05</span></div>
-<div class="home__flow__list__inner-txt">
 <h3>ご利用スタート<span class="txt-sm text-danger ml-3">最短1日</span></h3>
-<p>1つ1つの店舗にURLを発行し、ホームページのように運用いただ</p>
+<p>準備が整いました。ご利用スタートです！</p>
 </div>
 </li>
 <!-- home__flow__list__inner -->
 </ol>
 <!-- home__flow__list -->
 </div>
+<div class="mt-md-5 mt-4 text-center">
+<a class="btn btn-outline-primary" href="<?php echo $home; ?>/flow/">詳しい導入手順を見る</a>
 </div>
 </div>
 </section>
 <!-- flow -->
+
 <!-- <section id="case" class="sec home__case">
 <div class="container">
 <h2 class="ttl-h2 text-center">
 <span>case</span>
-<span>導入事例</span>
+<span>多くのお店からのお申し込みが増えています</span>
 </h2>
 <div class="home__case__list">
 <div class="home__case__list__inner">

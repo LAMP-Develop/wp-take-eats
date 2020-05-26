@@ -10,12 +10,10 @@ get_header(); ?>
 <div class="flow__list">
 <div class="flow__list__inner">
 <div class="home__flow__list__inner-step">STEP<span>01</span></div>
-<h3>資料請求</h3>
-<p>1つ1つの店舗にURLを発行し、ホームページのように運用いただくことが可能です。
-<br>SNS等で告知する事で、新たなお客様の獲得へつなげられます。</p>
-<p class="small">※迷惑メール対策などでドメイン指定を行なっている場合、メールを受信できない場合がございます。 弊社メールアドレス「info@menu.inc」を受信できるよう設定をお願いいたします。</p>
+<h3>お問い合わせ</h3>
+<p>お問い合わせフォームに、必要事項のご入力をお願いします。担当者よりご返信しお客様のご相談を受け付けます。</p>
 <div class="flow__list__inner-thumbnail">
-<img src="<?php echo $img_url; ?>flow_pic_1.png" alt="" srcset="<?php echo $img_url; ?>flow_pic_1.png 1x, <?php echo $img_url; ?>flow_pic_1@2x.png 2x">
+<img src="<?php echo $img_url; ?>flow_pic_1.png" alt="お問い合わせ" srcset="<?php echo $img_url; ?>flow_pic_1.png 1x, <?php echo $img_url; ?>flow_pic_1@2x.png 2x">
 </div>
 <div class="text-center mt-4">
 <a class="btn btn-outline-dark" href="<?php echo $home; ?>/contact/">お問い合わせはこちら</a>
@@ -23,11 +21,10 @@ get_header(); ?>
 </div>
 <div class="flow__list__inner">
 <div class="home__flow__list__inner-step">STEP<span>02</span></div>
-<h3>資料請求</h3>
-<p>1つ1つの店舗にURLを発行し、ホームページのように運用いただくことが可能です。
-<br>SNS等で告知する事で、新たなお客様の獲得へつなげられます。</p>
+<h3>お申し込み</h3>
+<p>お申し込みフォームに、必要事項のご入力をお願いします。ご入力いただいたメールアドレスもしくはお電話番号宛に担当営業よりご連絡します。</p>
 <div class="flow__list__inner-thumbnail">
-<img src="<?php echo $img_url; ?>flow_pic_2.png" alt="" srcset="<?php echo $img_url; ?>flow_pic_2.png 1x, <?php echo $img_url; ?>flow_pic_2@2x.png 2x">
+<img src="<?php echo $img_url; ?>flow_pic_2.png" alt="お申し込み" srcset="<?php echo $img_url; ?>flow_pic_2.png 1x, <?php echo $img_url; ?>flow_pic_2@2x.png 2x">
 </div>
 <div class="text-center mt-4">
 <a class="btn btn-outline-dark" href="<?php echo $home; ?>/request/">お申し込みはこちら</a>
@@ -36,35 +33,31 @@ get_header(); ?>
 <div class="flow__list__inner">
 <div class="home__flow__list__inner-step">STEP<span>0３</span></div>
 <h3>ヒアリング</h3>
-<p class="mb-0">1つ1つの店舗にURLを発行し、ホームページのように運用いただくことが可能です。
-<br>SNS等で告知する事で、新たなお客様の獲得へつなげられます。</p>
+<p class="mb-0">お客様専用のサイトを制作にあたり、ヒアリングを行います。オプションなどご希望内容の確認を行わせていただきます。</p>
 </div>
 <div class="flow__list__inner">
 <div class="home__flow__list__inner-step">STEP<span>04</span></div>
 <h3>アカウント発行</h3>
-<p>1つ1つの店舗にURLを発行し、ホームページのように運用いただくことが可能です。
-<br>SNS等で告知する事で、新たなお客様の獲得へつなげられます。</p>
+<p>お客様専用のテイクアウトサイトを制作・導入いたします。最短1日で導入可能です。（別途オプションによって変動します。）</p>
 <div class="flow__list__inner-thumbnail">
-<img src="<?php echo $img_url; ?>flow_pic_3.png" alt="" srcset="<?php echo $img_url; ?>flow_pic_3.png 1x, <?php echo $img_url; ?>flow_pic_3@2x.png 2x">
+<img src="<?php echo $img_url; ?>flow_pic_3.png" alt="アカウント発行" srcset="<?php echo $img_url; ?>flow_pic_3.png 1x, <?php echo $img_url; ?>flow_pic_3@2x.png 2x">
 </div>
 <div class="text-center mt-4">
-<a class="btn btn-outline-dark" href="https://demo.take-eats.jp/admin/" target="_blank">お申し込みはこちら</a>
+<a class="btn btn-outline-dark" href="https://demo.take-eats.jp/admin/" target="_blank">管理画面のデモはこちら</a>
 </div>
 </div>
 <div class="flow__list__inner">
 <div class="home__flow__list__inner-step">STEP<span>05</span></div>
-<h3>アカウント発行</h3>
-<p>1つ1つの店舗にURLを発行し、ホームページのように運用いただくことが可能です。
-<br>SNS等で告知する事で、新たなお客様の獲得へつなげられます。</p>
+<h3>商品登録</h3>
+<p>出品したい商品の登録を行います。登録は各店舗様にお願いしております。登録完了後は担当にご報告いただき公開への準備を進めます。</p>
 <div class="flow__list__inner-thumbnail">
-<img src="<?php echo $img_url; ?>flow_pic_4.png" alt="" srcset="<?php echo $img_url; ?>flow_pic_4.png 1x, <?php echo $img_url; ?>flow_pic_4@2x.png 2x">
+<img src="<?php echo $img_url; ?>flow_pic_4.png" alt="商品登録" srcset="<?php echo $img_url; ?>flow_pic_4.png 1x, <?php echo $img_url; ?>flow_pic_4@2x.png 2x">
 </div>
 </div>
 <div class="flow__list__inner">
 <div class="home__flow__list__inner-step">STEP<span>06</span></div>
 <h3>ご利用スタート</h3>
-<p class="mb-0">1つ1つの店舗にURLを発行し、ホームページのように運用いただくことが可能です。
-<br>SNS等で告知する事で、新たなお客様の獲得へつなげられます。</p>
+<p class="mb-0">公開の準備が整いましたら、開始日を決定しご利用スタートとなります。</p>
 </div>
 </div>
 </div>

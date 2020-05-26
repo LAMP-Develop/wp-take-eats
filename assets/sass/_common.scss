@@ -5,11 +5,15 @@ body {
 
 main {
   position: relative;
-  z-index: 1;
 }
 
 section {
   overflow: hidden;
+}
+
+[data-toggle="modal"] {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 p {
@@ -122,4 +126,23 @@ table {
 .txt-sm {
   font-size: 12px;
   font-weight: normal;
+}
+
+.modal {
+  &-title {
+    font-weight: bold;
+    font-size: 1.125rem;
+  }
+  &-body {
+    font-size: $font-size-sm;
+    line-height: 1.7;
+    h3 {
+      font-size: 1rem;
+      font-weight: bold;
+      margin: 2em 0 1em;
+    }
+    p {
+      margin-bottom: 1em;
+    }
+  }
 }

@@ -33,7 +33,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
       position: absolute;
       top: 50%;
       left: 50%;
@@ -93,6 +93,7 @@
       width: 48%;
       @include media-breakpoint-down(md) {
         width: 100%;
+        margin-top: 4rem;
       }
       &-ribbon {
         z-index: 1;
@@ -104,9 +105,13 @@
         background-color: $white;
         border: solid 3px $primary;
         box-sizing: border-box;
-        padding: 1rem;
+        padding: 0.5rem 1rem;
         font-size: 1rem;
         font-weight: bold;
+        @include media-breakpoint-down(md) {
+          left: 0;
+          font-size: $font-size-sm;
+        }
       }
       .video-js {
         overflow: hidden;
@@ -114,8 +119,6 @@
         height: 0;
         padding-top: 56.25%;
         background-color: transparent;
-        // box-shadow: 0 0 2rem rgba(#000000, 0.1);
-        // border-radius: 1rem;
         .vjs-poster {
           background-color: transparent;
         }
@@ -173,6 +176,10 @@
       justify-content: flex-start;
       align-items: center;
       padding-left: 4rem;
+      @include media-breakpoint-down(md) {
+        padding-right: 15px;
+        padding-left: 15px;
+      }
     }
     h2 {
       font-size: 1rem;
@@ -273,14 +280,17 @@
         text-align: center;
         margin: 0 0.5rem;
         padding: 1.5rem;
+        @include media-breakpoint-down(md) {
+          padding: 1.5rem 0.7rem;
+          margin: 0 0.25rem;
+        }
         h3 {
           font-size: 1rem;
           font-weight: bold;
-          margin-bottom: .5rem;
-        }
-        p {
-          font-size: $font-size-sm;
           margin-bottom: 0;
+          @include media-breakpoint-down(md) {
+            font-size: $font-size-sm;
+          }
         }
       }
       &-thumbnail {
@@ -330,22 +340,17 @@
         list-style: none;
         margin-bottom: 1.5rem;
         &:nth-child(1) {
-          @include media-breakpoint-up(md) {
-            margin-left: -40%;
-          }
-        }
-        &:nth-child(2) {
-          @include media-breakpoint-up(md) {
+          @include media-breakpoint-up(lg) {
             margin-left: -30%;
           }
         }
-        &:nth-child(3) {
-          @include media-breakpoint-up(md) {
+        &:nth-child(2) {
+          @include media-breakpoint-up(lg) {
             margin-left: -20%;
           }
         }
-        &:nth-child(4) {
-          @include media-breakpoint-up(md) {
+        &:nth-child(3) {
+          @include media-breakpoint-up(lg) {
             margin-left: -10%;
           }
         }

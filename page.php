@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<section class="sec">
+<section class="sec single">
 <div class="container">
 <?php the_content(); ?>
 </div>

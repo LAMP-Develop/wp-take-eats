@@ -1,19 +1,22 @@
-<?php
-$home = esc_url(home_url());
-$wp_url = get_template_directory_uri();
-get_header(); ?>
+<?php get_header(); ?>
+
 <?php
 if (have_posts()):
 while (have_posts()): the_post();
 $t = get_the_title();
 $category = get_the_category();
 $cat_name = $category[0]->cat_name;
-$posttags = get_the_tags();
-$time = get_the_time('Y-m-d');
 ?>
+<article class="sec">
+<div class="container">
+<h1 class="font-weight-bold h3"><?php the_title(); ?></h1>
+<p class="mt-3 mb-5 small text-primary"><?php the_time('Y.m.d'); ?></p>
+<div class="single">
+<?php the_content(); ?>
+</div>
+</div>
+</article>
 <?php
 endwhile;
-else: ?>
-<?php endif; ?>
-<?php get_sidebar(); ?>
-<?php get_footer();
+endif;
+get_footer();

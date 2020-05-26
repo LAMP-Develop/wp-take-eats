@@ -45,6 +45,7 @@ $(function ($) {
     $(".features__demos__btns-btn").removeClass("active");
     $(this).addClass("active");
     $("#demo-img").attr("src", $(this).attr("data-src"));
+    $("#demo-txt").html($(this).attr("data-txt"));
   });
 
   if (w <= md) {
