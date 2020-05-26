@@ -5,8 +5,7 @@ $img_url = get_template_directory_uri().'/dist/images/';
 get_header(); ?>
 <section class="sec flow">
 <div class="container">
-<p class="text-md-center font-weight-bold">TakeEatsなら、カンタンに商品登録・管理が可能です。
-<br>受取時間や通知も設定でき、テイクアウト予約に必要なシステムを導入いただけます。</p>
+<p class="text-md-center font-weight-bold">TakeEatsはお申し込みからアカウント発行まで最短1日で導入可能！</p>
 <div class="flow__list">
 <div class="flow__list__inner">
 <div class="home__flow__list__inner-step">STEP<span>01</span></div>

@@ -54,6 +54,8 @@ $img_url = get_template_directory_uri().'/dist/images/'; ?>
 <!-- footer__link -->
 <p class="copy">©2020 <?php bloginfo("name"); ?></p>
 </footer>
+
+<script src="<?php echo $wp_url; ?>/dist/js/bundle.js" defer></script>
 <?php wp_footer(); ?>
 </body>
 </html>

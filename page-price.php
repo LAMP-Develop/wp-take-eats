@@ -4,7 +4,7 @@ $wp_url = get_template_directory_uri();
 $img_url = get_template_directory_uri().'/dist/images/';
 
 get_header(); ?>
-<section class="sec price">
+<div class="sec price">
 <div class="container">
 <div class="price__card">
 <img src="<?php echo $img_url; ?>price_card_1.png" alt="初期費用" srcset="<?php echo $img_url; ?>price_card_1.png 1x, <?php echo $img_url; ?>price_card_1@2x.png 2x">
@@ -15,7 +15,7 @@ get_header(); ?>
 </div>
 <p class="text-md-center m-0 small mt-3">※クレジットカードでの決済の場合手数料3.6%が別途発生します。</p>
 </div>
-</section>
+</div>
 
 <section class="price">
 <div class="price__info">
@@ -39,7 +39,7 @@ get_header(); ?>
 <div class="price__info__inner__credit__wrap">
 <div class="price__info__inner__credit__wrap-ttl">店舗決済</div>
 <div class="price__info__inner__credit__wrap-content">
-<span class="font-weight-bold">現地で決済</span>
+<span class="font-weight-bold">店舗・ご注文者希望の方法にて決済</span>
 </div>
 <div class="price__info__inner__credit__wrap-price">手数料<br>5%+¥30</div>
 </div>
@@ -100,7 +100,7 @@ get_header(); ?>
 </tbody>
 </table>
 </div>
-<p class="mt-3 small mb-0">※ 入金額が5,000円を超えている場合に振込となります。5,000円に満たない場合は、5,000円を超える月まで振込保留となります。
+<p class="mt-3 small mb-0">※入金額が5,000円を超えている場合に振込となります。5,000円に満たない場合は、5,000円を超える月まで振込保留となります。
 <br>（最大6ヶ月を預り期間上限として、期間経過時は、5,000円に満たなくても振込）</p>
 </div>
 </div>
