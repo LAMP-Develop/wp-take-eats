@@ -7,10 +7,9 @@ get_header(); ?>
 <div class="container">
 <div class="mv__inner">
 <div class="mv__inner__left">
-<p class="mv__inner__left-balloon">お持ち帰り</p>
-<h1 class="mv__inner__left-ttl">テイクアウト専用<br>オーダー予約システム</h1>
-<p>TakeEatsは飲食店オーナー様向けのテイクアウト（お持ち帰り）に特化した予約・決済システムです。
-<br>新型コロナウイルスの影響で従来の営業ができなくなった飲食店様から寄せられた多くのご要望にお応えするために京都で生まれました。</p>
+<p class="mv__inner__left-balloon">お持ち帰りを</p>
+<h1 class="mv__inner__left-ttl">無料で簡単</h1>
+<p>TakeEatsは飲食店オーナー様向けのテイクアウト（お持ち帰り）に特化した予約・決済システムです。飲食店オーナー様から寄せられた多くのご要望にお応えするために生まれました。</p>
 </div>
 <div class="mv__inner__right">
 <div class="mv__inner__right-ribbon">サービス紹介30秒動画</div>

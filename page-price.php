@@ -34,14 +34,14 @@ get_header(); ?>
 <div><img src="<?php echo $img_url; ?>credit_5.png" alt="クレジットカード銘柄" srcset="<?php echo $img_url; ?>credit_5.png 1x, <?php echo $img_url; ?>credit_5@2x.png 2x"></div>
 </div>
 </div>
-<div class="price__info__inner__credit__wrap-price">手数料<br>8.6%+¥30</div>
+<div class="price__info__inner__credit__wrap-price">手数料<br>3.6%</div>
 </div>
 <div class="price__info__inner__credit__wrap">
 <div class="price__info__inner__credit__wrap-ttl">店舗決済</div>
 <div class="price__info__inner__credit__wrap-content">
-<span class="font-weight-bold">店舗・ご注文者希望の方法にて決済</span>
+<span class="font-weight-bold">現金・クレジット・キャッシュレス ・交通系ICなど（店舗指定の決済方法）</span>
 </div>
-<div class="price__info__inner__credit__wrap-price">手数料<br>5%+¥30</div>
+<div class="price__info__inner__credit__wrap-price">手数料<br>¥0</div>
 </div>
 <p class="mb-0 mt-3 small">※8/31までの間、決済手数料が無料でご利用いただけます。</p>
 </div>
