@@ -55,9 +55,9 @@
         letter-spacing: 1rem;
         font-weight: bold;
         margin: 0;
-        text-align: center;
         @include media-breakpoint-down(md) {
           font-size: 1rem;
+          text-align: center;
         }
         &::before {
           content: "＼";
@@ -75,9 +75,9 @@
         letter-spacing: 0.1em;
         line-height: 1.5;
         margin: 1rem 0 2rem;
-        text-align: center;
         @include media-breakpoint-down(md) {
           font-size: 1.6rem;
+          text-align: center;
           margin: 1rem 0 1.5rem;
         }
         & + p {
