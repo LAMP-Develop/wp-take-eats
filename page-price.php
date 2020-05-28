@@ -87,7 +87,7 @@ get_header(); ?>
 </tr>
 <tr>
 <th>売上締め</th>
-<td>指定なし</td>
+<td>当月末締め</td>
 </tr>
 <tr>
 <th>入金タイミング</th>
