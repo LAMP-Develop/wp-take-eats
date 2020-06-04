@@ -13,7 +13,7 @@ get_header(); ?>
 <div class="price__card mb-0">
 <img src="<?php echo $img_url; ?>price_card_2.png" alt="決済手数料" srcset="<?php echo $img_url; ?>price_card_2.png 1x, <?php echo $img_url; ?>price_card_2@2x.png 2x">
 </div>
-<p class="text-md-center m-0 small mt-3">※クレジットカードでの決済の場合手数料3.6%が別途発生します。</p>
+<p class="text-md-center m-0 small mt-3">※ クレジットカードでの決済の場合手数料3.6%+¥20が別途発生します。<br>※ 2020/9/1以降は手数料10%が発生します。</p>
 </div>
 </div>
 
@@ -21,7 +21,7 @@ get_header(); ?>
 <div class="price__info">
 <div class="price__info__inner">
 <h2 class="font-weight-bold text-center h4 mb-3">決済について</h2>
-<p class="font-weight-bold text-center small">下記の決済がご利用いただけます。</p>
+<p class="font-weight-bold text-center small">下記の決済方法がご利用いただけます。</p>
 <div class="price__info__inner__credit">
 <div class="price__info__inner__credit__wrap mb-4">
 <div class="price__info__inner__credit__wrap-ttl">クレジットカード</div>
@@ -34,16 +34,16 @@ get_header(); ?>
 <div><img src="<?php echo $img_url; ?>credit_5.png" alt="クレジットカード銘柄" srcset="<?php echo $img_url; ?>credit_5.png 1x, <?php echo $img_url; ?>credit_5@2x.png 2x"></div>
 </div>
 </div>
-<div class="price__info__inner__credit__wrap-price">手数料<br>3.6%</div>
+<div class="price__info__inner__credit__wrap-price">手数料<br>3.6%+¥20</div>
 </div>
 <div class="price__info__inner__credit__wrap">
 <div class="price__info__inner__credit__wrap-ttl">店舗決済</div>
 <div class="price__info__inner__credit__wrap-content">
-<span class="font-weight-bold">現金・クレジット・キャッシュレス ・交通系ICなど（店舗指定の決済方法）</span>
+<span class="font-weight-bold">現金・クレジット・QRコード・交通系ICなど（店舗指定の決済方法）</span>
 </div>
 <div class="price__info__inner__credit__wrap-price">手数料<br>¥0</div>
 </div>
-<p class="mb-0 mt-3 small">※8/31までの間、決済手数料が無料でご利用いただけます。</p>
+<p class="mb-0 mt-3 small">※ 2020/9/1以降は手数料10%が発生します。</p>
 </div>
 <!-- <div class="price__info__inner__table">
 <table class="price__info__inner__table__credit">

@@ -6,13 +6,23 @@ import "bootstrap";
 import videojs from "video.js";
 import slick from "slick-carousel";
 
-$(function ($) {
-  let w = $(window).width();
-  let md = 991.98;
-
+$(window).on('load', function() {
   // padding調整
   $("main").css("padding-top", $(".header").outerHeight() + "px");
+});
 
+$(window).on('load resize', function() {
+  let w = $(window).width();
+  let md = 991.98;
+  if (w <= md) {
+    // 画像src切り替え
+    $(".img-switch").each(function () {
+      $(this).attr("src", $(this).attr("src").replace("_pc", "_sp"));
+    });
+  }
+});
+
+$(function ($) {
   // slick
   $(".home__system__slide").slick({
     slidesToShow: 4,
@@ -47,13 +57,6 @@ $(function ($) {
     $("#demo-img").attr("src", $(this).attr("data-src"));
     $("#demo-txt").html($(this).attr("data-txt"));
   });
-
-  if (w <= md) {
-    // 画像src切り替え
-    $(".img-switch").each(function () {
-      $(this).attr("src", $(this).attr("src").replace("_pc", "_sp"));
-    });
-  }
 
   // スムーススクロール
   $('a[href^="#"]').on("click", function () {

@@ -11,29 +11,11 @@ get_header(); ?>
 <p class="footer__cta__tel-num"><a href="tel:075-600-2721"><span class="mr-3">TEL</span>075-600-2721</a></p>
 <p class="small">10：00〜18：00（土日祝除く）</p>
 </div>
-<?php the_content(); ?>
+
+<div class="google-form">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdfSLn9Rk4giWJhJkchVnSEigSoxBQSCzzsqYpfwk9SgPdIQw/viewform?embedded=true" height="2668" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+</div>
+
 </div>
 </section>
-
-<?php
-$page_data = get_page_by_path('term');
-$page = get_post($page_data);
-$content = $page->post_content;
-?>
-<!-- Modal -->
-<div class="modal fade" id="acceptance" tabindex="-1" role="dialog" aria-labelledby="acceptanceLabel" aria-hidden="true">
-<div class="modal-dialog modal-dialog-scrollable modal-lg">
-<div class="modal-content">
-<div class="modal-header">
-<h3 class="modal-title" id="acceptanceLabel">利用規約</h3>
-<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-<span aria-hidden="true">&times;</span>
-</button>
-</div>
-<div class="modal-body">
-<?php echo $content; ?>
-</div>
-</div>
-</div>
-</div>
 <?php get_footer();
