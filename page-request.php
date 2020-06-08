@@ -13,7 +13,7 @@ get_header(); ?>
 </div>
 
 <div class="google-form">
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdfSLn9Rk4giWJhJkchVnSEigSoxBQSCzzsqYpfwk9SgPdIQw/viewform?embedded=true" height="2668" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdfSLn9Rk4giWJhJkchVnSEigSoxBQSCzzsqYpfwk9SgPdIQw/viewform?embedded=true" width="640" height="1427" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
 </div>
 
 </div>
