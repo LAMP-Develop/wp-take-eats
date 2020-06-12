@@ -22,7 +22,10 @@ get_header(); ?>
 <div class="price__info__inner">
 <h2 class="font-weight-bold text-center h4 mb-3">決済について</h2>
 <p class="font-weight-bold text-center small">下記の決済方法がご利用いただけます。</p>
-<div class="price__info__inner__credit">
+<div class="text-center">
+<img src="<?php echo $img_url; ?>kessai.png" alt="決済について" srcset="<?php echo $img_url; ?>kessai.png 1x, <?php echo $img_url; ?>kessai@2x.png 2x">
+</div>
+<!-- <div class="price__info__inner__credit">
 <div class="price__info__inner__credit__wrap mb-4">
 <div class="price__info__inner__credit__wrap-ttl">クレジットカード</div>
 <div class="price__info__inner__credit__wrap-content">
@@ -44,7 +47,7 @@ get_header(); ?>
 <div class="price__info__inner__credit__wrap-price">手数料<br>¥0</div>
 </div>
 <p class="mb-0 mt-3 small">※ 2020/9/1以降は手数料10%が発生します。</p>
-</div>
+</div> -->
 <!-- <div class="price__info__inner__table">
 <table class="price__info__inner__table__credit">
 <tbody>
