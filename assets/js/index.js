@@ -6,12 +6,12 @@ import "bootstrap";
 import videojs from "video.js";
 import slick from "slick-carousel";
 
-$(window).on('load', function() {
+$(window).on("load", function () {
   // padding調整
   $("main").css("padding-top", $(".header").outerHeight() + "px");
 });
 
-$(window).on('load resize', function() {
+$(window).on("load resize", function () {
   let w = $(window).width();
   let md = 991.98;
   if (w <= md) {
@@ -76,5 +76,11 @@ $(function ($) {
     } else {
       $(".header .navbar").removeClass("scroll");
     }
+  });
+
+  // faq
+  $(".faq__list__inner-ttl").on("click", function () {
+    $(this).next(".faq__list__inner-ans").slideToggle();
+    $(this).toggleClass("active");
   });
 });

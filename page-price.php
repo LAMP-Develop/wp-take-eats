@@ -13,7 +13,7 @@ get_header(); ?>
 <div class="price__card mb-0">
 <img src="<?php echo $img_url; ?>price_card_2.png" alt="決済手数料" srcset="<?php echo $img_url; ?>price_card_2.png 1x, <?php echo $img_url; ?>price_card_2@2x.png 2x">
 </div>
-<p class="text-md-center m-0 small mt-3">※ クレジットカードでの決済の場合手数料3.6%+¥20が別途発生します。<br>※ 2020/9/1以降は手数料10%が発生します。</p>
+<p class="text-md-center m-0 small mt-3">※ クレジットカードでの決済の場合手数料3.6%+¥20が別途発生します。<br>※ 2020/9/1以降は手数料8%が発生します。</p>
 </div>
 </div>
 
