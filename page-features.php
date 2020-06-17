@@ -54,60 +54,70 @@ get_header(); ?>
 <img src="<?php echo $img_url; ?>option_icon_1.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_1.png 1x, <?php echo $img_url; ?>option_icon_1@2x.png 2x">
 </div>
 <h3>カード決済</h3>
+<span class="d-block small mt-3 text-left">クレジットカードを使用した事前決済をご利用いただけます</span>
 </div>
 <div class="home__system__slide__inner">
 <div class="home__system__slide-thumbnail">
 <img src="<?php echo $img_url; ?>option_icon_2.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_2.png 1x, <?php echo $img_url; ?>option_icon_2@2x.png 2x">
 </div>
 <h3>デザインカスタム</h3>
+<span class="d-block small mt-3 text-left">店舗ページをご希望に沿ったデザインにカスタマイズ可能です</span>
 </div>
 <div class="home__system__slide__inner">
 <div class="home__system__slide-thumbnail">
 <img src="<?php echo $img_url; ?>option_icon_3.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_3.png 1x, <?php echo $img_url; ?>option_icon_3@2x.png 2x">
 </div>
 <h3>FAX転送</h3>
+<span class="d-block small mt-3 text-left">お客様から注文があった際に受注内容をFAXへ転送することができます</span>
 </div>
 <div class="home__system__slide__inner">
 <div class="home__system__slide-thumbnail">
 <img src="<?php echo $img_url; ?>option_icon_4.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_4.png 1x, <?php echo $img_url; ?>option_icon_4@2x.png 2x">
 </div>
 <h3>お気持ちオプション</h3>
+<span class="d-block small mt-3 text-left">お客様が商品をご注文時、店舗様に少額の応援金を贈ることができます</span>
 </div>
 <div class="home__system__slide__inner">
 <div class="home__system__slide-thumbnail">
 <img src="<?php echo $img_url; ?>option_icon_5.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_5.png 1x, <?php echo $img_url; ?>option_icon_5@2x.png 2x">
 </div>
 <h3>SNS連携</h3>
+<span class="d-block small mt-3 text-left">店舗ページ内に、店舗様で管理されているSNSアカウントへのリンクを表示することができます</span>
 </div>
 <div class="home__system__slide__inner">
 <div class="home__system__slide-thumbnail">
 <img src="<?php echo $img_url; ?>option_icon_6.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_6.png 1x, <?php echo $img_url; ?>option_icon_6@2x.png 2x">
 </div>
 <h3>お知らせ</h3>
+<span class="d-block small mt-3 text-left">臨時休業や、新メニューなどのお知らせを店舗ページへ表示させることが可能です</span>
 </div>
 <div class="home__system__slide__inner">
 <div class="home__system__slide-thumbnail">
 <img src="<?php echo $img_url; ?>option_icon_7.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_7.png 1x, <?php echo $img_url; ?>option_icon_7@2x.png 2x">
 </div>
-<h3>通販</h3>
+<h3>お取り寄せ</h3>
+<span class="d-block small mt-3 text-left">遠方のお客様へ商品を届けたい場合に、お取り寄せサービスの注文管理システムとしてお使いいただけます</span>
 </div>
 <div class="home__system__slide__inner">
 <div class="home__system__slide-thumbnail">
 <img src="<?php echo $img_url; ?>option_icon_8.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_8.png 1x, <?php echo $img_url; ?>option_icon_8@2x.png 2x">
 </div>
 <h3>独自ドメイン</h3>
+<span class="d-block small mt-3 text-left">希望される独自ドメインに店舗ページを設置することが可能です（ドメイン取得は店舗様にて行っていただく必要がございます）</span>
 </div>
 <div class="home__system__slide__inner">
 <div class="home__system__slide-thumbnail">
 <img src="<?php echo $img_url; ?>option_icon_12.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_12.png 1x, <?php echo $img_url; ?>option_icon_12@2x.png 2x">
 </div>
 <h3>レポート</h3>
+<span class="d-block small mt-3 text-left">店舗ページのアクセス解析レポートが毎月自動で届きます</span>
 </div>
 <div class="home__system__slide__inner">
 <div class="home__system__slide-thumbnail">
 <img src="<?php echo $img_url; ?>option_icon_13.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_13.png 1x, <?php echo $img_url; ?>option_icon_13@2x.png 2x">
 </div>
 <h3>タク配</h3>
+<span class="d-block small mt-3 text-left">MKタクシーのタクシー配送サービスをご利用いただけます（配送料は店舗様のご負担となります）</span>
 <p>※京都市内限定/6月開始予定</p>
 </div>
 </div>

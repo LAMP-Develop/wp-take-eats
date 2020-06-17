@@ -59,7 +59,7 @@ $(function ($) {
   });
 
   // スムーススクロール
-  $('a[href^="#"]').on("click", function () {
+  $('.smooth').on("click", function () {
     var speed = 500;
     var href = $(this).attr("href");
     var target = $(href == "#" || href == "" ? "html" : href);
