@@ -46,7 +46,7 @@ $img_url = get_template_directory_uri().'/dist/images/'; ?>
 </ul>
 <ul class="navbar-nav ml-auto">
 <li class="nav-item active">
-<a class="btn btn-primary font-weight-bold" href="<?php $home; ?>/request/">お申し込み</a>
+<a class="btn btn-primary font-weight-bold" href="<?php $home; ?>/request/" onclick="gtag('event', 'click', {'event_category': 'link','event_label': 'お申し込み'});">お申し込み</a>
 </li>
 </ul>
 </div>

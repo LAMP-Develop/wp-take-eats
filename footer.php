@@ -18,7 +18,7 @@ $img_url = get_template_directory_uri().'/dist/images/'; ?>
 </div>
 <div class="footer__cta__btns">
 <a href="<?php $home; ?>/contact/">お問い合わせ</a>
-<a href="<?php $home; ?>/request/">お申し込み</a>
+<a href="<?php $home; ?>/request/" onclick="gtag('event', 'click', {'event_category': 'link','event_label': 'お申し込み'});">お申し込み</a>
 </div>
 </div>
 <!-- cta -->
