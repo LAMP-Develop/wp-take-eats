@@ -35,6 +35,7 @@ $img_url = get_template_directory_uri().'/dist/images/'; ?>
 <li><a href="<?php echo $home; ?>/price/">料金</a></li>
 <li><a href="<?php echo $home; ?>/marketing/">集客・販売促進</a></li>
 <li><a href="<?php echo $home; ?>/flow/">導入の流れ</a></li>
+<li><a href="<?php $home; ?>/faq/">よくあるご質問</a></li>
 </ul>
 </div>
 <!-- footer__link__inner -->
