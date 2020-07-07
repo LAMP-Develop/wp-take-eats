@@ -98,20 +98,20 @@ get_header(); ?>
 <h3>お取り寄せ</h3>
 <span class="d-block small mt-3 text-left">遠方のお客様へ商品を届けたい場合に、お取り寄せサービスの注文管理システムとしてお使いいただけます</span>
 </div>
-<div class="home__system__slide__inner">
+<!-- <div class="home__system__slide__inner">
 <div class="home__system__slide-thumbnail">
 <img src="<?php echo $img_url; ?>option_icon_8.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_8.png 1x, <?php echo $img_url; ?>option_icon_8@2x.png 2x">
 </div>
 <h3>独自ドメイン</h3>
 <span class="d-block small mt-3 text-left">希望される独自ドメインに店舗ページを設置することが可能です（ドメイン取得は店舗様にて行っていただく必要がございます）</span>
-</div>
-<div class="home__system__slide__inner">
+</div> -->
+<!-- <div class="home__system__slide__inner">
 <div class="home__system__slide-thumbnail">
 <img src="<?php echo $img_url; ?>option_icon_12.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_12.png 1x, <?php echo $img_url; ?>option_icon_12@2x.png 2x">
 </div>
 <h3>レポート</h3>
 <span class="d-block small mt-3 text-left">店舗ページのアクセス解析レポートが毎月自動で届きます</span>
-</div>
+</div> -->
 <div class="home__system__slide__inner">
 <div class="home__system__slide-thumbnail">
 <img src="<?php echo $img_url; ?>option_icon_13.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_13.png 1x, <?php echo $img_url; ?>option_icon_13@2x.png 2x">

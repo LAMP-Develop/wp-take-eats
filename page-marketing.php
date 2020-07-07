@@ -10,17 +10,20 @@ get_header(); ?>
 <div class="features__lists">
 <div class="features__lists__inner">
 <div class="features__lists__inner-img mb-3">
-<img src="<?php echo $img_url; ?>marketing_img_1.png" alt="GoogleMapへ掲載" srcset="<?php echo $img_url; ?>marketing_img_1.png 1x, <?php echo $img_url; ?>marketing_img_1@2x.png 2x">
-</div>
-<h3>GoogleMapへ掲載</h3>
-<p>Googleマップで［テイクアウト］とクリックするとマップ上にピンが表示されます。</p>
-</div>
-<div class="features__lists__inner">
-<div class="features__lists__inner-img mb-3">
 <img src="<?php echo $img_url; ?>marketing_img_2.png" alt="ポータルサイトへ掲載" srcset="<?php echo $img_url; ?>marketing_img_2.png 1x, <?php echo $img_url; ?>marketing_img_2@2x.png 2x">
 </div>
 <h3>ポータルサイトへ掲載</h3>
 <p>TakeEats公式のテイクアウトに特化した店舗検索サイトにご掲載をさせていただきエリアやジャンル等でヒットされます。</p>
+<div class="text-center mt-2">
+<a class="btn btn-primary" href="https://take-eats.jp/" target="_blank">検索サイトを見る</a>
+</div>
+</div>
+<div class="features__lists__inner">
+<div class="features__lists__inner-img mb-3">
+<img src="<?php echo $img_url; ?>marketing_img_1.png" alt="GoogleMapへ掲載" srcset="<?php echo $img_url; ?>marketing_img_1.png 1x, <?php echo $img_url; ?>marketing_img_1@2x.png 2x">
+</div>
+<h3>GoogleMapへ掲載</h3>
+<p>Googleマップで［テイクアウト］とクリックするとマップ上にピンが表示されます。</p>
 </div>
 <div class="features__lists__inner">
 <div class="features__lists__inner-img mb-3">

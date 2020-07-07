@@ -44,6 +44,54 @@ foreach ($posts as $post): setup_postdata($post); ?>
 </div>
 </section>
 <!-- homenews -->
+
+<section id="case" class="sec home__case">
+<div class="container">
+<h2 class="ttl-h2 text-center">
+<span>case</span>
+<span>多くのお店からのお申し込みが増えています</span>
+</h2>
+
+<div class="home__case__list">
+<div class="home__case__list__inner">
+<a class="home__case__list__inner-img" href="https://musashi.take-eats.jp/" target="_blank">
+<img src="<?php echo $img_url; ?>musashi_logo_mv.png" alt="寿しのむさし">
+</a>
+<div class="home__case__list__inner-info">
+<h3><a href="https://musashi.take-eats.jp/" target="_blank">寿しのむさし<small>様</small></a></h3>
+<div class="home__case__list__inner-tag">
+<span>京都</span>
+<span>寿司</span>
+<span>デリバリー可</span>
+</div>
+</div>
+<div class="home__case__list__inner-btn">
+<a class="btn btn-light font-weight-bold" href="https://musashi.take-eats.jp/" target="_blank">サイトを見る</a>
+</div>
+</div>
+<!-- home__case__list__inner -->
+<div class="home__case__list__inner">
+<a class="home__case__list__inner-img" href="https://malebranche.take-eats.jp/" target="_blank">
+<img src="<?php echo $img_url; ?>malebranche_logo_mv.png" alt="マールブランシュ">
+</a>
+<div class="home__case__list__inner-info">
+<h3><a href="https://malebranche.take-eats.jp/" target="_blank">マールブランシュ<small>様</small></a></h3>
+<div class="home__case__list__inner-tag">
+<span>京都</span>
+<span>カフェ・スイーツ</span>
+<span>デリバリー可</span>
+</div>
+</div>
+<div class="home__case__list__inner-btn">
+<a class="btn btn-light font-weight-bold" href="https://malebranche.take-eats.jp/" target="_blank">サイトを見る</a>
+</div>
+</div>
+<!-- home__case__list__inner -->
+</div>
+<!-- home__case__list -->
+</div>
+</section>
+
 <section id="features" class="sec home__features">
 <div class="container">
 <h2 class="ttl-h2 text-center">
@@ -183,7 +231,7 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <li class="home__flow__list__inner">
 <div class="home__flow__list__inner-step">STEP<span>04</span></div>
 <div class="home__flow__list__inner-txt">
-<h3>ご利用スタート<span class="txt-sm text-danger ml-3">最短1日</span></h3>
+<h3>ご利用スタート</h3>
 <p>準備が整いました。ご利用スタートです！</p>
 </div>
 </li>
@@ -197,39 +245,4 @@ foreach ($posts as $post): setup_postdata($post); ?>
 </div>
 </section>
 <!-- flow -->
-
-<!-- <section id="case" class="sec home__case">
-<div class="container">
-<h2 class="ttl-h2 text-center">
-<span>case</span>
-<span>多くのお店からのお申し込みが増えています</span>
-</h2>
-<div class="home__case__list">
-<div class="home__case__list__inner">
-<div class="home__case__list__inner-img">
-<img src="<?php echo $img_url; ?>musashi_logo.png" alt="寿しのむさし">
-</div>
-<div class="home__case__list__inner-btn">
-<a class="btn btn-light font-weight-bold" href="">導入事例を詳しくみる</a>
-</div>
-</div>
-<div class="home__case__list__inner">
-<div class="home__case__list__inner-img">
-<img src="<?php echo $img_url; ?>musashi_logo.png" alt="寿しのむさし">
-</div>
-<div class="home__case__list__inner-btn">
-<a class="btn btn-light font-weight-bold" href="">導入事例を詳しくみる</a>
-</div>
-</div>
-<div class="home__case__list__inner">
-<div class="home__case__list__inner-img">
-<img src="<?php echo $img_url; ?>musashi_logo.png" alt="寿しのむさし">
-</div>
-<div class="home__case__list__inner-btn">
-<a class="btn btn-light font-weight-bold" href="">導入事例を詳しくみる</a>
-</div>
-</div>
-</div>
-</div>
-</section> -->
 <?php get_footer();

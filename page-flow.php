@@ -37,7 +37,8 @@ get_header(); ?>
 <div class="flow__list__inner">
 <div class="home__flow__list__inner-step">STEP<span>04</span></div>
 <h3>アカウント発行</h3>
-<p>お客様専用のテイクアウトサイトを制作・導入いたします。最短1日で導入可能です。（別途オプションによって変動します。）</p>
+<p>お客様専用のテイクアウトサイトを制作・導入いたします。
+<br>※ヒアリングから約1~2週間ほどでサイトのご準備が整います。（別途オプションによって変動します）</p>
 <div class="flow__list__inner-thumbnail">
 <img src="<?php echo $img_url; ?>flow_pic_3.png" alt="アカウント発行" srcset="<?php echo $img_url; ?>flow_pic_3.png 1x, <?php echo $img_url; ?>flow_pic_3@2x.png 2x">
 </div>
@@ -48,7 +49,8 @@ get_header(); ?>
 <div class="flow__list__inner">
 <div class="home__flow__list__inner-step">STEP<span>05</span></div>
 <h3>商品登録</h3>
-<p>出品したい商品の登録を行います。登録は各店舗様にお願いしております。登録完了後は担当にご報告いただき公開への準備を進めます。</p>
+<p>出品したい商品の登録を行います。登録は各店舗様にお願いしております。登録完了後は担当にご報告いただき公開への準備を進めます。
+<br>商品のご登録は弊社で代行させていただくことも可能です。（今なら無料！）</p>
 <div class="flow__list__inner-thumbnail">
 <img src="<?php echo $img_url; ?>flow_pic_4.png" alt="商品登録" srcset="<?php echo $img_url; ?>flow_pic_4.png 1x, <?php echo $img_url; ?>flow_pic_4@2x.png 2x">
 </div>
