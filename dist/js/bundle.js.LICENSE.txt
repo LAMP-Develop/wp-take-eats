@@ -46,7 +46,7 @@
 
 /**
  * @videojs/http-streaming
- * @version 1.12.3
+ * @version 1.13.2
  * @copyright 2020 Brightcove, Inc
  * @license Apache-2.0
  */

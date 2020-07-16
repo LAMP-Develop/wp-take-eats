@@ -107,6 +107,7 @@ foreach ($posts as $post): setup_postdata($post); ?>
 </div>
 <h3 class="home__features__wrap__inner-ttl">初期費用・月額費用0円</h3>
 <p>初期導入費・月額利用料はすべて無料！費用はご注文時の決済手数料のみで、固定費はかかりません。（オプションをご選択の場合は別途費用）</p>
+<p class="text-center mb-0 mt-3"><a class="btn btn-primary" href="<?php echo $home; ?>/price/">詳しく見る</a></p>
 </div>
 <!-- home__features__wrap__inner -->
 <div class="home__features__wrap__inner">
@@ -116,6 +117,7 @@ foreach ($posts as $post): setup_postdata($post); ?>
 </div>
 <h3 class="home__features__wrap__inner-ttl">店舗オリジナルページを作成</h3>
 <p>1つ1つの店舗にURLを発行し、ホームページのように運用いただくことが可能です。SNS等から直接購入ページに来ていただくことが可能です。</p>
+<p class="text-center mb-0 mt-3"><a class="btn btn-primary" href="<?php echo $home; ?>/features/">詳しく見る</a></p>
 </div>
 <!-- home__features__wrap__inner -->
 <div class="home__features__wrap__inner">
@@ -123,8 +125,9 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <div class="home__features__wrap__inner-img">
 <img src="<?php echo $img_url; ?>features_img_1.png" alt="売上アップの仕組み" srcset="<?php echo $img_url; ?>features_img_3.png 1x, <?php echo $img_url; ?>features_img_3@2x.png 2x">
 </div>
-<h3 class="home__features__wrap__inner-ttl">売上アップの仕組み</h3>
+<h3 class="home__features__wrap__inner-ttl">売上アップの仕組みを提供</h3>
 <p>GoogleMapとの連携やTakeEats公式店舗検索サイトへの掲載、SEO対策など、独自サイトならではのプロモーションが可能です。</p>
+<p class="text-center mb-0 mt-3"><a class="btn btn-primary" href="<?php echo $home; ?>/marketing/">詳しく見る</a></p>
 </div>
 <!-- home__features__wrap__inner -->
 </div>
