@@ -13,17 +13,23 @@ $img_url = get_template_directory_uri().'/dist/images/'; ?>
 <link rel="stylesheet" href="<?php echo $wp_url; ?>/dist/css/add.css?ver=1.0.1">
 <?php wp_head(); ?>
 <?php if (!is_user_logged_in()): ?>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167493209-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-167493209-1');
-</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WSTPTV7');</script>
+<!-- End Google Tag Manager -->
 <?php endif; ?>
 </head>
 <body>
+<?php if (!is_user_logged_in()): ?>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSTPTV7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<?php endif; ?>
+<?php wp_body_open(); ?>
 
 <?php if (is_home() || is_front_page()): ?>
 <img class="mv-illust" src="<?php echo $img_url; ?>mv_illust_1.png" alt="背景">
