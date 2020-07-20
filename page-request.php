@@ -2,7 +2,7 @@
 $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 $img_url = get_template_directory_uri().'/dist/images/';
-get_header();the_post(); ?>
+get_header(); the_post(); ?>
 <section class="sec form">
 <div class="container">
 <p class="text-md-center font-weight-bold mb-5">送信内容を確認させていただき、担当者よりご連絡させていただきます。
@@ -16,7 +16,7 @@ get_header();the_post(); ?>
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdfSLn9Rk4giWJhJkchVnSEigSoxBQSCzzsqYpfwk9SgPdIQw/viewform?embedded=true" width="640" height="1427" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
 </div> -->
 
-<?php wp_content(); ?>
+<?php the_content(); ?>
 
 </div>
 </section>
