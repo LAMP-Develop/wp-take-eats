@@ -87,6 +87,22 @@ foreach ($posts as $post): setup_postdata($post); ?>
 </div>
 </div>
 <!-- home__case__list__inner -->
+<div class="home__case__list__inner">
+<a class="home__case__list__inner-img" href="https://daitokujisaikiya.take-eats.jp/" target="_blank">
+<img src="<?php echo $img_url; ?>saiki_logo_mv.png" alt="大徳寺さいき家">
+</a>
+<div class="home__case__list__inner-info">
+<h3><a href="https://daitokujisaikiya.take-eats.jp/" target="_blank">大徳寺さいき家<small>様</small></a></h3>
+<div class="home__case__list__inner-tag">
+<span>京都</span>
+<span>和食</span>
+</div>
+</div>
+<div class="home__case__list__inner-btn">
+<a class="btn btn-light font-weight-bold" href="https://malebranche.take-eats.jp/" target="_blank">サイトを見る</a>
+</div>
+</div>
+<!-- home__case__list__inner -->
 </div>
 <!-- home__case__list -->
 </div>
