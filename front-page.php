@@ -99,7 +99,7 @@ foreach ($posts as $post): setup_postdata($post); ?>
 </div>
 </div>
 <div class="home__case__list__inner-btn">
-<a class="btn btn-light font-weight-bold" href="https://malebranche.take-eats.jp/" target="_blank">サイトを見る</a>
+<a class="btn btn-light font-weight-bold" href="https://daitokujisaikiya.take-eats.jp/" target="_blank">サイトを見る</a>
 </div>
 </div>
 <!-- home__case__list__inner -->
