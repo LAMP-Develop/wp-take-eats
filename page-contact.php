@@ -8,8 +8,8 @@ get_header(); ?>
 <p class="text-md-center font-weight-bold mb-5">お問い合わせご希望の方は下記フォームよりどうぞ。
 <br>送信内容を確認させていただき、担当者よりご連絡させていただきます。
 <span class="d-block small mt-3"><i class="text-danger small mr-1">※</i>は入力必須項目です。</span></p>
-<div class="footer__cta__tel">
-<p class="footer__cta__tel-num"><a href="tel:075-600-2721"><span class="mr-3">TEL</span>075-600-2721</a></p>
+<div class="footer__cta__tel text-center">
+<p class="footer__cta__tel-num"><a class="text-body" href="tel:075-600-2721"><span class="mr-3">TEL</span>075-600-2721</a></p>
 <p class="small">10：00〜18：00（土日祝除く）</p>
 </div>
 <?php echo do_shortcode('[contact-form-7 id="12" title="お問い合わせ"]'); ?>
