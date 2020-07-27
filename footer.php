@@ -8,18 +8,21 @@ $img_url = get_template_directory_uri().'/dist/images/'; ?>
 <?php if (!is_page('contact') && !is_page('request')): ?>
 <div class="container">
 <div class="footer__cta">
-<h2 class="ttl-h2 text-center">
-<span class="text-body">Contact</span>
-<span>導入のご検討・ご相談は<br class="d-md-none">こちらから</span>
-</h2>
-<div class="footer__cta__tel">
-<p class="footer__cta__tel-num"><a href="tel:075-600-2721"><span class="mr-3">TEL</span>075-600-2721</a></p>
-<p class="small">10：00〜18：00（土日祝除く）</p>
+<h2 class="ttl-h2 text-center"><span class="text-body">あなたのお店でも<br>テイクアウトを始めましょう！</span></h2>
+<p class="text-md-center mt-n3">TakeEatsはお申込みからご利用スタートまで最短1営業日！<br>あなたのお店オリジナルのテイクアウトサイトを無料で簡単に開設。</p>
+
+<div class="footer__cta__links">
+<a class="footer__cta__links-request" href="<?php echo $home; ?>/request/">お申し込み</a>
+<a class="footer__cta__links-tel" href="tel:075-600-2721">
+<span>TEL</span>
+<span>075-600-2721</span>
+<small>10：00〜18：00（土日祝除く）</small>
+</a>
+<a class="footer__cta__links-contact" href="<?php echo $home; ?>/contact/"><span>資料請求・お問い合わせ</span></a>
 </div>
-<div class="footer__cta__btns">
-<a href="<?php $home; ?>/contact/">お問い合わせ</a>
-<a href="<?php $home; ?>/request/" onclick="gtag('event', 'click', {'event_category': 'link','event_label': 'お申し込み'});">お申し込み</a>
-</div>
+
+<img class="footer__cta-icon" src="<?php echo $wp_url; ?>/dist/images/bg_cta_icon.png" alt="takeeats">
+
 </div>
 <!-- cta -->
 </div>

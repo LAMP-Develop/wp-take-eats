@@ -49,60 +49,47 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <div class="container">
 <h2 class="ttl-h2 text-center">
 <span>case</span>
-<span>多くのお店からのお申し込みが増えています</span>
+<span>導入店舗</span>
 </h2>
 
+<p class="home__case-label"><span>多くのお店からの<br class="d-md-none">お申し込みが増えています</span></p>
+
 <div class="home__case__list">
+<?php
+$worl_args = [
+    'posts_per_page' => 3,
+    'post_type' => 'work',
+    'orderby' => 'date',
+    'order' => 'ASC'
+];
+$work_posts = get_posts($worl_args);
+foreach ($work_posts as $post):
+    setup_postdata($post);
+    $ttl = get_the_title();
+    $takeeats_url = get_field('site_url');
+    $thumbnail = get_the_post_thumbnail_url(get_the_ID(), 'large');
+    $work_terms = get_the_terms(get_the_ID(), 'work_tags');
+?>
 <div class="home__case__list__inner">
-<a class="home__case__list__inner-img" href="https://musashi.take-eats.jp/" target="_blank">
-<img src="<?php echo $img_url; ?>musashi_logo_mv.png" alt="寿しのむさし">
+<a class="home__case__list__inner-img" href="<?php echo $takeeats_url; ?>" target="_blank">
+<img src="<?php echo $thumbnail; ?>" alt="<?php echo $ttl; ?>">
 </a>
 <div class="home__case__list__inner-info">
-<h3><a href="https://musashi.take-eats.jp/" target="_blank">寿しのむさし<small>様</small></a></h3>
+<h3><a href="<?php echo $takeeats_url; ?>" target="_blank"><?php echo $ttl; ?><small>様</small></a></h3>
+<?php if($work_terms): ?>
 <div class="home__case__list__inner-tag">
-<span>京都</span>
-<span>寿司</span>
-<span>デリバリー可</span>
+<?php foreach ($work_terms as $term): ?>
+<span><?php echo $term->name; ?></span>
+<?php endforeach; ?>
 </div>
+<?php endif; ?>
 </div>
 <div class="home__case__list__inner-btn">
-<a class="btn btn-light font-weight-bold" href="https://musashi.take-eats.jp/" target="_blank">サイトを見る</a>
+<a class="btn btn-light font-weight-bold" href="<?php echo $takeeats_url; ?>" target="_blank">サイトを見る</a>
 </div>
 </div>
 <!-- home__case__list__inner -->
-<div class="home__case__list__inner">
-<a class="home__case__list__inner-img" href="https://malebranche.take-eats.jp/" target="_blank">
-<img src="<?php echo $img_url; ?>malebranche_logo_mv.png" alt="マールブランシュ">
-</a>
-<div class="home__case__list__inner-info">
-<h3><a href="https://malebranche.take-eats.jp/" target="_blank">マールブランシュ<small>様</small></a></h3>
-<div class="home__case__list__inner-tag">
-<span>京都</span>
-<span>カフェ・スイーツ</span>
-<span>デリバリー可</span>
-</div>
-</div>
-<div class="home__case__list__inner-btn">
-<a class="btn btn-light font-weight-bold" href="https://malebranche.take-eats.jp/" target="_blank">サイトを見る</a>
-</div>
-</div>
-<!-- home__case__list__inner -->
-<div class="home__case__list__inner">
-<a class="home__case__list__inner-img" href="https://daitokujisaikiya.take-eats.jp/" target="_blank">
-<img src="<?php echo $img_url; ?>saiki_logo_mv.png" alt="大徳寺さいき家">
-</a>
-<div class="home__case__list__inner-info">
-<h3><a href="https://daitokujisaikiya.take-eats.jp/" target="_blank">大徳寺さいき家<small>様</small></a></h3>
-<div class="home__case__list__inner-tag">
-<span>京都</span>
-<span>和食</span>
-</div>
-</div>
-<div class="home__case__list__inner-btn">
-<a class="btn btn-light font-weight-bold" href="https://daitokujisaikiya.take-eats.jp/" target="_blank">サイトを見る</a>
-</div>
-</div>
-<!-- home__case__list__inner -->
+<?php endforeach; wp_reset_postdata(); ?>
 </div>
 <!-- home__case__list -->
 </div>
