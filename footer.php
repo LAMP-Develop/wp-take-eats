@@ -57,9 +57,9 @@ $img_url = get_template_directory_uri().'/dist/images/'; ?>
 </div>
 <!-- footer__link -->
 <p class="copy">©2020 <?php bloginfo("name"); ?></p>
-
+<?php if(!is_page(['request', 'contact'])): ?>
 <a class="footer-ctabtn" href="<?php $home; ?>/request/"><span>＼ 最短1営業日 ／</span>無料でお店に導入！</a>
-
+<?php endif; ?>
 </footer>
 
 <script src="<?php echo $wp_url; ?>/dist/js/bundle.js" defer></script>
