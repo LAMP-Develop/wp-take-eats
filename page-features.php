@@ -176,6 +176,10 @@ get_header(); ?>
 </div>
 </div>
 <!-- features__steps -->
+<div class="container mt-5">
+<img class="d-block mx-auto" src="<?php echo $img_url; ?>shop_flow_fig.png" alt="注文後の流れ" srcset="<?php echo $img_url; ?>shop_flow_fig.png 1x, <?php echo $img_url; ?>shop_flow_fig@2x.png 2x">
+<p class="mt-3 mb-0 small text-center">※FAXでの通知にはオプションの追加が必要です。</p>
+</div>
 </section>
 
 <section class="sec features">
