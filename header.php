@@ -51,13 +51,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- <li class="nav-item"><a class="nav-link text-body font-weight-bold" href="<?php $home; ?>/case/">導入事例</a></li> -->
 <li class="nav-item"><a class="nav-link text-body font-weight-bold" href="<?php $home; ?>/contact/">お問い合わせ</a></li>
 </ul>
-<ul class="navbar-nav ml-auto">
-<li class="nav-item active">
-<a class="btn btn-primary font-weight-bold" href="<?php $home; ?>/request/" onclick="gtag('event', 'click', {'event_category': 'link','event_label': 'お申し込み'});">お申し込み</a>
-</li>
-</ul>
 </div>
 </nav>
+
+<a class="header-cta" href="<?php $home; ?>/request/">お申し込み</a>
+
 </header>
 <!-- header -->
 <main>
