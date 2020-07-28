@@ -68,7 +68,7 @@ $img_url = get_template_directory_uri().'/dist/images/'; ?>
 <?php endif; ?>
 </footer>
 
-<script src="<?php echo $wp_url; ?>/dist/js/bundle.js" defer></script>
+<script src="<?php echo $wp_url; ?>/dist/js/bundle.js?ver=1.0.1" defer></script>
 <?php wp_footer(); ?>
 </body>
 </html>
