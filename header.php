@@ -44,10 +44,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="collapse navbar-collapse" id="navbar">
 <ul class="navbar-nav">
 <li class="nav-item"><a class="nav-link text-body font-weight-bold" href="<?php $home; ?>/features/">機能紹介</a></li>
-<!-- <li class="nav-item"><a class="nav-link text-body font-weight-bold" href="<?php $home; ?>/price/">料金</a></li> -->
+<li class="nav-item"><a class="nav-link text-body font-weight-bold" href="<?php $home; ?>/price/">料金</a></li>
 <li class="nav-item"><a class="nav-link text-body font-weight-bold" href="<?php $home; ?>/marketing/">集客・販売促進</a></li>
-<!-- <li class="nav-item"><a class="nav-link text-body font-weight-bold" href="<?php $home; ?>/flow/">導入の流れ</a></li> -->
-<li class="nav-item"><a class="nav-link text-body font-weight-bold" href="<?php $home; ?>/faq/">よくあるご質問</a></li>
+<li class="nav-item d-md-none"><a class="nav-link text-body font-weight-bold" href="<?php $home; ?>/flow/">導入の流れ</a></li>
+<li class="nav-item d-md-none"><a class="nav-link text-body font-weight-bold" href="<?php $home; ?>/faq/">よくあるご質問</a></li>
 <li class="nav-item"><a class="nav-link text-body font-weight-bold" href="<?php $home; ?>/work/">導入事例</a></li>
 <li class="nav-item"><a class="nav-link text-body font-weight-bold" href="<?php $home; ?>/contact/">お問い合わせ</a></li>
 </ul>
