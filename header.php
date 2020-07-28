@@ -42,7 +42,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
 </button>
 <div class="collapse navbar-collapse" id="navbar">
-<ul class="navbar-nav ml-auto">
+<ul class="navbar-nav">
 <li class="nav-item"><a class="nav-link text-body font-weight-bold" href="<?php $home; ?>/features/">機能紹介</a></li>
 <li class="nav-item"><a class="nav-link text-body font-weight-bold" href="<?php $home; ?>/price/">料金</a></li>
 <li class="nav-item"><a class="nav-link text-body font-weight-bold" href="<?php $home; ?>/marketing/">集客・販売促進</a></li>

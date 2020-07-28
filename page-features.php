@@ -6,11 +6,35 @@ $img_url = get_template_directory_uri().'/dist/images/';
 get_header(); ?>
 <section class="sec features">
 <div class="container">
-<h2 class="text-center font-weight-bold h4 mb-md-5 mb-4">基本機能</h2>
-<div class="d-flex justify-content-center flex-wrap mb-5">
-<div class="text-center mr-md-3 mb-md-0 mb-3"><a class="btn btn-outline-danger" href="https://demo.take-eats.jp/shop/" target="_blank"><i class="fas fa-store-alt mr-2"></i>店舗ページのデモをみる</a></div>
-<div class="text-center"><a class="btn btn-outline-danger" href="https://demo.take-eats.jp/admin/" target="_blank"><i class="fas fa-user-cog mr-2"></i>管理画面のデモをみる</a></div>
+<h2 class="features-ttl"><span>デモ画面で<br>機能をお試しください！</span></h2>
+<div class="row mx-0">
+<div class="col-md features__demo-system mr-md-3 mb-md-0 mb-4">
+<h3>管理画面</h3>
+<p class="text-center">商品の登録や予約状況、<br>お知らせの更新などすべてが行えるページです。</p>
+<picture>
+<img class="d-block mx-auto" src="<?php echo $img_url; ?>demo_img_1.png" alt="管理画面" srcset="<?php echo $img_url; ?>demo_img_1.png 1x, <?php echo $img_url; ?>demo_img_1@2x.png 2x">
+</picture>
+<div class="text-center mt-4">
+<a class="btn" href="https://demo.take-eats.jp/admin/" target="_blank">管理画面のデモをみる<i class="far fa-window-restore ml-2"></i></a>
 </div>
+</div>
+<div class="col-md features__demo-shop">
+<h3>オリジナル店舗ページ</h3>
+<p class="text-center">お客様が実際に<br>注文をされるページです。</p>
+<picture>
+<img class="d-block mx-auto" src="<?php echo $img_url; ?>demo_img_2.png" alt="オリジナル店舗ページ" srcset="<?php echo $img_url; ?>demo_img_2.png 1x, <?php echo $img_url; ?>demo_img_2@2x.png 2x">
+</picture>
+<div class="text-center mt-4">
+<a class="btn" href="https://demo.take-eats.jp/shop/" target="_blank">店舗ページのデモをみる<i class="far fa-window-restore ml-2"></i></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="sec features bg-light">
+<div class="container">
+<h2 class="text-center font-weight-bold h4 mb-md-5 mb-4">基本機能</h2>
 <p class="text-md-center font-weight-bold">TakeEatsなら、カンタンに商品登録・管理が可能です。
 <br>受取時間や通知も設定でき、テイクアウト予約に必要なシステムを導入いただけます。</p>
 <div class="features__demos">
@@ -38,14 +62,17 @@ get_header(); ?>
 </div>
 <!-- features__demos__btns -->
 <div class="features__demos__imgs">
+<p id="demo-txt">
+<span class="txt-icon"><i class="fas fa-box"></i>商品の登録</span>
+<span class="txt-data">商品名・商品詳細・金額を設定できます。<br>IDやコードの入力にも対応しており、商品管理も柔軟に対応できます。</span>
+</p>
 <img id="demo-img" src="<?php echo $img_url; ?>demo1.png" alt="TakeEatsのデモ画面">
-<p id="demo-txt">商品名・商品詳細・金額を設定できます。<br>IDやコードの入力にも対応しており、商品管理も柔軟に対応できます。</p>
 </div>
 </div>
 </div>
 </section>
 
-<section class="sec features bg-light">
+<section class="sec features">
 <div class="container">
 <h2 class="text-center font-weight-bold h4 mb-md-5 mb-4">オプション機能</h2>
 <div class="features__option">
@@ -98,20 +125,6 @@ get_header(); ?>
 <h3>お取り寄せ</h3>
 <span class="d-block small mt-3 text-left">遠方のお客様へ商品を届けたい場合に、お取り寄せサービスの注文管理システムとしてお使いいただけます</span>
 </div>
-<!-- <div class="home__system__slide__inner">
-<div class="home__system__slide-thumbnail">
-<img src="<?php echo $img_url; ?>option_icon_8.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_8.png 1x, <?php echo $img_url; ?>option_icon_8@2x.png 2x">
-</div>
-<h3>独自ドメイン</h3>
-<span class="d-block small mt-3 text-left">希望される独自ドメインに店舗ページを設置することが可能です（ドメイン取得は店舗様にて行っていただく必要がございます）</span>
-</div> -->
-<!-- <div class="home__system__slide__inner">
-<div class="home__system__slide-thumbnail">
-<img src="<?php echo $img_url; ?>option_icon_12.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_12.png 1x, <?php echo $img_url; ?>option_icon_12@2x.png 2x">
-</div>
-<h3>レポート</h3>
-<span class="d-block small mt-3 text-left">店舗ページのアクセス解析レポートが毎月自動で届きます</span>
-</div> -->
 <div class="home__system__slide__inner">
 <div class="home__system__slide-thumbnail">
 <img src="<?php echo $img_url; ?>option_icon_13.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_13.png 1x, <?php echo $img_url; ?>option_icon_13@2x.png 2x">
@@ -127,7 +140,9 @@ get_header(); ?>
 
 <section class="sec features">
 <div class="container">
-<h2 class="text-center font-weight-bold h4 mb-md-5 mb-4">お客様も簡単に注文可能</h2>
+<h2 class="text-center font-weight-bold h4 mb-3">注文の流れ</h2>
+<p class="mb-md-5 mb-4 text-center">お客様も簡単に注文可能！</p>
+</div>
 <div class="features__steps">
 <div class="features__steps__inner">
 <p><span>STEP<span>01</span></span><i>商品を選択</i></p>
@@ -161,8 +176,32 @@ get_header(); ?>
 </div>
 </div>
 <!-- features__steps -->
-<div class="mt-md-5 mt-4 text-center">
-<a class="btn btn-outline-danger" href="https://demo.take-eats.jp/shop/" target="_blank">店舗ページのデモをみる<i class="fas fa-window-restore ml-2 small"></i></a>
+</section>
+
+<section class="sec features">
+<div class="container">
+<h2 class="features-ttl"><span>デモ画面で<br>機能をお試しください！</span></h2>
+<div class="row mx-0">
+<div class="col-md features__demo-system mr-md-3 mb-md-0 mb-4">
+<h3>管理画面</h3>
+<p class="text-center">商品の登録や予約状況、<br>お知らせの更新などすべてが行えるページです。</p>
+<picture>
+<img class="d-block mx-auto" src="<?php echo $img_url; ?>demo_img_1.png" alt="管理画面" srcset="<?php echo $img_url; ?>demo_img_1.png 1x, <?php echo $img_url; ?>demo_img_1@2x.png 2x">
+</picture>
+<div class="text-center mt-4">
+<a class="btn" href="https://demo.take-eats.jp/admin/" target="_blank">管理画面のデモをみる<i class="far fa-window-restore ml-2"></i></a>
+</div>
+</div>
+<div class="col-md features__demo-shop">
+<h3>オリジナル店舗ページ</h3>
+<p class="text-center">お客様が実際に<br>注文をされるページです。</p>
+<picture>
+<img class="d-block mx-auto" src="<?php echo $img_url; ?>demo_img_2.png" alt="オリジナル店舗ページ" srcset="<?php echo $img_url; ?>demo_img_2.png 1x, <?php echo $img_url; ?>demo_img_2@2x.png 2x">
+</picture>
+<div class="text-center mt-4">
+<a class="btn" href="https://demo.take-eats.jp/shop/" target="_blank">店舗ページのデモをみる<i class="far fa-window-restore ml-2"></i></a>
+</div>
+</div>
 </div>
 </div>
 </section>

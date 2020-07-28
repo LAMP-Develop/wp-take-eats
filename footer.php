@@ -8,9 +8,16 @@ $img_url = get_template_directory_uri().'/dist/images/'; ?>
 <?php if (!is_page('contact') && !is_page('request')): ?>
 <div class="container">
 <div class="footer__cta">
-<h2 class="ttl-h2 text-center"><span class="text-body">あなたのお店でも<br>テイクアウトを始めましょう！</span></h2>
-<p class="text-md-center mt-n3">TakeEatsはお申込みからご利用スタートまで最短1営業日！<br>あなたのお店オリジナルのテイクアウトサイトを無料で簡単に開設。</p>
-
+<div class="footer__cta-wrap">
+<div class="row align-items-center mb-4">
+<div class="col-md-8">
+<h2 class="footer__cta-ttl">あなたのお店でも<br><span>テイクアウト</span>を始めましょう！</h2>
+<p class="footer__cta-txt">TakeEatsはお申込みからご利用スタートまで最短1営業日！<br>あなたのお店オリジナルのテイクアウトサイトを無料で簡単に開設。</p>
+</div>
+<div class="col-md-4 mt-md-0 mt-3 text-center">
+<img src="<?php echo $wp_url; ?>/dist/images/cta_pict_01.png" alt="人物イラスト" srcset="<?php echo $wp_url; ?>/dist/images/cta_pict_01.png 1x, <?php echo $wp_url; ?>/dist/images/cta_pict_01@2x.png 2x">
+</div>
+</div>
 <div class="footer__cta__links">
 <a class="footer__cta__links-request" href="<?php echo $home; ?>/request/">お申し込み</a>
 <a class="footer__cta__links-tel" href="tel:075-600-2721">
@@ -20,9 +27,8 @@ $img_url = get_template_directory_uri().'/dist/images/'; ?>
 </a>
 <a class="footer__cta__links-contact" href="<?php echo $home; ?>/contact/"><span>資料請求・お問い合わせ</span></a>
 </div>
-
+</div>
 <img class="footer__cta-icon" src="<?php echo $wp_url; ?>/dist/images/bg_cta_icon.png" alt="takeeats">
-
 </div>
 <!-- cta -->
 </div>
