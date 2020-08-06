@@ -12,7 +12,7 @@ $img_url = get_template_directory_uri().'/dist/images/'; ?>
 <div class="row align-items-center mb-4">
 <div class="col-md-8">
 <h2 class="footer__cta-ttl">あなたのお店でも<br><span>テイクアウト</span>を始めましょう！</h2>
-<p class="footer__cta-txt">TakeEatsはお申込みからご利用スタートまで最短1営業日！<br>あなたのお店オリジナルのテイクアウトサイトを無料で簡単に開設。</p>
+<p class="footer__cta-txt">TakeEatsはお申込みからご利用スタートまで最短即日！<br>あなたのお店オリジナルのテイクアウトサイトを無料で簡単に開設。</p>
 </div>
 <div class="col-md-4 mt-md-0 mt-3 text-center">
 <img src="<?php echo $wp_url; ?>/dist/images/cta_pict_01.png" alt="人物イラスト" srcset="<?php echo $wp_url; ?>/dist/images/cta_pict_01.png 1x, <?php echo $wp_url; ?>/dist/images/cta_pict_01@2x.png 2x">
@@ -64,7 +64,7 @@ $img_url = get_template_directory_uri().'/dist/images/'; ?>
 <!-- footer__link -->
 <p class="copy">©2020 <?php bloginfo("name"); ?></p>
 <?php if(!is_page(['request', 'contact'])): ?>
-<a class="footer-ctabtn" href="<?php $home; ?>/request/"><span>＼ 最短1営業日 ／</span>無料でお店に導入！</a>
+<a class="footer-ctabtn" href="<?php $home; ?>/request/"><span>＼ 最短即日 ／</span>無料でお店に導入！</a>
 <?php endif; ?>
 </footer>
 

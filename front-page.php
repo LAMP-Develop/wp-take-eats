@@ -205,7 +205,7 @@ foreach ($work_posts as $post):
 <div class="container">
 <h2 class="ttl-h2 text-center">
 <span>flow</span>
-<span>最短1週間で導入可能</span>
+<span>最短即日で導入可能</span>
 </h2>
 <div class="home__flow__wrap">
 <div class="home__flow__wrap-img"><img src="<?php echo $img_url; ?>flow_img_1.png" alt="イラスト" srcset="<?php echo $img_url; ?>flow_img_1.png 1x, <?php echo $img_url; ?>flow_img_1@2x.png 2x"></div>

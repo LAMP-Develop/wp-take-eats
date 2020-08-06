@@ -5,7 +5,7 @@ $img_url = get_template_directory_uri().'/dist/images/';
 get_header(); ?>
 <section class="sec flow">
 <div class="container">
-<p class="text-md-center font-weight-bold">TakeEatsはお申し込みからアカウント発行まで最短1週間で導入可能！</p>
+<p class="text-md-center font-weight-bold">TakeEatsはお申し込みからアカウント発行まで最短即日で導入可能！</p>
 <div class="flow__list">
 <div class="flow__list__inner">
 <div class="home__flow__list__inner-step">STEP<span>01</span></div>
