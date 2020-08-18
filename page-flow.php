@@ -38,7 +38,7 @@ get_header(); ?>
 <div class="home__flow__list__inner-step">STEP<span>04</span></div>
 <h3>アカウント発行</h3>
 <p>お客様専用のテイクアウトサイトを制作・導入いたします。
-<br>※ヒアリングから約1~2週間ほどでサイトのご準備が整います。（別途オプションによって変動します）</p>
+<br>※別途オプションによってお時間がかかる場合がございます。</p>
 <div class="flow__list__inner-thumbnail">
 <img src="<?php echo $img_url; ?>flow_pic_3@2x.png" alt="アカウント発行">
 </div>
