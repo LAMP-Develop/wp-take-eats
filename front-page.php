@@ -3,203 +3,188 @@ $home = esc_url(home_url());
 $wp_url = get_template_directory_uri();
 $img_url = get_template_directory_uri().'/dist/images/';
 get_header(); ?>
-<section class="mv">
+
+<div class="lp__hero">
 <div class="container">
-<div class="mv__inner">
-<div class="mv__inner__left">
-<p class="mv__inner__left-balloon">無料で簡単</p>
-<h1 class="mv__inner__left-ttl">テイクアウト専用<br>オーダー予約システム</h1>
-<p>TakeEatsは飲食店オーナー様向けのテイクアウト（お持ち帰り）に特化した予約・決済システムです。飲食店オーナー様から寄せられた多くのご要望にお応えするために生まれました。</p>
-</div>
-<div class="mv__inner__right">
-<div class="mv__inner__right-ribbon">サービス紹介30秒動画</div>
-<video id="pv" class="video-js" poster="<?php echo $img_url; ?>video_poster.png">
-<source src="<?php echo $wp_url; ?>/dist/video/take-eats-pv_cm.mp4" type="video/mp4">
-</video>
+<div class="lp__hero-wrap">
+<p class="text-center">
+<img src="<?php echo $img_url; ?>lp_hero_top.png" alt="初期費用・月額費用0円" srcset="<?php echo $img_url; ?>lp_hero_top.png 1x, <?php echo $img_url; ?>lp_hero_top@2x.png 2x">
+</p>
+<div class="lp__hero-demo">
+<img src="<?php echo $img_url; ?>mv_lp_pict.png" alt="スマホ画面" srcset="<?php echo $img_url; ?>mv_lp_pict.png 1x, <?php echo $img_url; ?>mv_lp_pict@2x.png 2x">
 </div>
 </div>
-<!-- mv__inner -->
 </div>
-<img class="mv-illust-2" src="<?php echo $img_url; ?>mv_illust_2.png" alt="背景">
+</div>
+<!-- .lp__hero -->
+
+<section class="lp__case py-5">
+<div class="container">
+<h2 class="lp-ttl2"><span class="marks">様々な飲食店</span>で<br>ご利用いただいております</h2>
+</div>
+<div id="lpcase" class="lp__case-slide">
+<div class="lp__case-slide__inner">
+<div class="lp__case-slide__inner-balloon">スイーツ</div>
+<div class="lp__case-slide__inner-logo">
+<img src="<?php echo $img_url; ?>lp_logo_1.png" alt="マールブランシュ" srcset="<?php echo $img_url; ?>lp_logo_1.png 1x, <?php echo $img_url; ?>lp_logo_1@2x.png 2x">
+</div>
+</div>
+<div class="lp__case-slide__inner">
+<div class="lp__case-slide__inner-balloon">お寿司</div>
+<div class="lp__case-slide__inner-logo">
+<img src="<?php echo $img_url; ?>lp_logo_2.png" alt="寿しのむさし" srcset="<?php echo $img_url; ?>lp_logo_2.png 1x, <?php echo $img_url; ?>lp_logo_2@2x.png 2x">
+</div>
+</div>
+<div class="lp__case-slide__inner">
+<div class="lp__case-slide__inner-balloon">和食</div>
+<div class="lp__case-slide__inner-logo">
+<img src="<?php echo $img_url; ?>lp_logo_3.png" alt="さいき家" srcset="<?php echo $img_url; ?>lp_logo_3.png 1x, <?php echo $img_url; ?>lp_logo_3@2x.png 2x">
+</div>
+</div>
+<div class="lp__case-slide__inner">
+<div class="lp__case-slide__inner-balloon">カフェ</div>
+<div class="lp__case-slide__inner-logo">
+<img src="<?php echo $img_url; ?>lp_logo_4.png" alt="KAWA Cafe" srcset="<?php echo $img_url; ?>lp_logo_4.png 1x, <?php echo $img_url; ?>lp_logo_4@2x.png 2x">
+</div>
+</div>
+<div class="lp__case-slide__inner">
+<div class="lp__case-slide__inner-balloon">居酒屋</div>
+<div class="lp__case-slide__inner-logo">
+<img src="<?php echo $img_url; ?>lp_logo_5.png" alt="ほうせい丸" srcset="<?php echo $img_url; ?>lp_logo_5.png 1x, <?php echo $img_url; ?>lp_logo_5@2x.png 2x">
+</div>
+</div>
+<div class="lp__case-slide__inner">
+<div class="lp__case-slide__inner-balloon">カフェ</div>
+<div class="lp__case-slide__inner-logo">
+<img src="<?php echo $img_url; ?>lp_logo_6.png" alt="プルクワ" srcset="<?php echo $img_url; ?>lp_logo_6.png 1x, <?php echo $img_url; ?>lp_logo_6@2x.png 2x">
+</div>
+</div>
+<div class="lp__case-slide__inner">
+<div class="lp__case-slide__inner-balloon">カレー</div>
+<div class="lp__case-slide__inner-logo">
+<img src="<?php echo $img_url; ?>lp_logo_7.png" alt="200円カレー" srcset="<?php echo $img_url; ?>lp_logo_7.png 1x, <?php echo $img_url; ?>lp_logo_7@2x.png 2x">
+</div>
+</div>
+<div class="lp__case-slide__inner">
+<div class="lp__case-slide__inner-balloon">和食</div>
+<div class="lp__case-slide__inner-logo">
+<img src="<?php echo $img_url; ?>lp_logo_8.png" alt="鴨LABO" srcset="<?php echo $img_url; ?>lp_logo_8.png 1x, <?php echo $img_url; ?>lp_logo_8@2x.png 2x">
+</div>
+</div>
+</div>
 </section>
-<!-- mv -->
-<section id="homenews" class="home__news">
+
+<section class="py-5 bg-light d-md-none">
 <div class="container">
-<h2>NEWS</h2>
-<?php
-$args = [
-    'posts_per_page' => 1,
-    'orderby' => 'date',
-    'order' => 'DESC'
-];
-$posts = get_posts($args);
-foreach ($posts as $post): setup_postdata($post); ?>
-<div class="home__news__inner">
-<a href="<?php the_permalink(); ?>">
-<time data-time="<?php the_time('Y-m-d'); ?>"><?php the_time('Y-m-d'); ?></time>
-<p><?php the_title(); ?></p>
+<h2 class="lp-ttl2">TakeEatsの<br><span class="marks">テイクアウト</span>って？</h2>
+</div>
+<img class="w-100" src="<?php echo $img_url; ?>about_main_sp.png" alt="TakeEatsの流れ" srcset="<?php echo $img_url; ?>about_main_sp.png 1x, <?php echo $img_url; ?>about_main_sp@2x.png 2x">
+<div class="container">
+<p class="mb-0 mt-5 text-center"><a class="font-weight-bold text-body" href="<?php echo $home; ?>/features/">TakeEatsで出来ること<i class="fas fa-caret-right ml-2"></i></a></p>
+</div>
+</section>
+
+<section class="py-5 d-md-block d-none">
+<div class="container text-center">
+<img src="<?php echo $img_url; ?>about_main_pc.png" alt="TakeEatsの流れ" srcset="<?php echo $img_url; ?>about_main_pc.png 1x, <?php echo $img_url; ?>about_main_pc@2x.png 2x">
+</div>
+</section>
+
+<section class="lp__feature py-5">
+<div class="container">
+<h2 class="lp-ttl2">TakeEatsの<br><span class="marks">特長</span></h2>
+<div class="lp__feature__list">
+<div class="lp__feature__list__inner">
+<div class="lp__feature__list__inner-wrap">
+<h3 class="lp-ttl2">初期導入費・月額利用料<br><span class="marks">0円だから</span><br>無料で始められる！</h3>
+<img src="<?php echo $img_url; ?>lp_feature_1.png" alt="初期導入費・月額利用料0円" srcset="<?php echo $img_url; ?>lp_feature_1.png 1x, <?php echo $img_url; ?>lp_feature_1@2x.png 2x">
+</div>
+<p>初期導入費・月額利用料は全て無料！店舗が負担するのは注文時のサービス手数料のみで、固定費はかかりません。（※オプションをご選択の場合は別途費用）</p>
+</div>
+<!-- .lp__feature__list__inner -->
+<div class="lp__feature__list__inner">
+<div class="lp__feature__list__inner-wrap">
+<h3 class="lp-ttl2"><span class="marks">事前予約/決済</span>で<br>キャンセル防止</h3>
+<img src="<?php echo $img_url; ?>lp_feature_2.png" alt="キャンセル防止" srcset="<?php echo $img_url; ?>lp_feature_2.png 1x, <?php echo $img_url; ?>lp_feature_2@2x.png 2x">
+</div>
+<p>クレジットカードでの事前決済で、商品の無断キャンセルを防止。廃棄による無駄なコストを削減できます。</p>
+</div>
+<!-- .lp__feature__list__inner -->
+<div class="lp__feature__list__inner">
+<div class="lp__feature__list__inner-wrap">
+<h3 class="lp-ttl2"><span class="marks">シンプル</span>で使いやすい<br>店舗オリジナル予約サイト</h3>
+<img src="<?php echo $img_url; ?>lp_feature_3.png" alt="シンプル" srcset="<?php echo $img_url; ?>lp_feature_3.png 1x, <?php echo $img_url; ?>lp_feature_3@2x.png 2x">
+</div>
+<p>店舗ごとの予約サイトは、幅広い層が注文しやすいシンプルなデザインです。50代のユーザーにもご好評いただいています。</p>
+</div>
+<!-- .lp__feature__list__inner -->
+</div>
+</div>
+</section>
+
+<div class="lp__cta">
+<div class="container">
+<div class="lp__cta__box">
+<h2><span>＼ 即日対応！ ／</span>無料でお店に導入！</h2>
+<div class="text-center">
+<a href="<?php echo $home; ?>/#lpform">
+<img src="<?php echo $img_url; ?>lp_cta_btn.png" alt="無料でお店に導入" srcset="<?php echo $img_url; ?>lp_cta_btn.png 1x, <?php echo $img_url; ?>lp_cta_btn@2x.png 2x">
 </a>
 </div>
-<?php endforeach; wp_reset_postdata(); ?>
 </div>
-</section>
-<!-- homenews -->
+</div>
+</div>
 
-<section id="case" class="sec home__case">
+<section class="py-5 bg-light lp__support">
 <div class="container">
-<h2 class="ttl-h2 text-center">
-<span>case</span>
-<span>導入店舗</span>
-</h2>
-
-<p class="home__case-label"><span>多くのお店からの<br class="d-md-none">お申し込みが増えています</span></p>
-
-<div class="home__case__list">
-<?php
-$worl_args = [
-    'posts_per_page' => 3,
-    'post_type' => 'work',
-    'orderby' => 'date',
-    'order' => 'ASC'
-];
-$work_posts = get_posts($worl_args);
-foreach ($work_posts as $post):
-    setup_postdata($post);
-    $ttl = get_the_title();
-    $takeeats_url = get_field('site_url');
-    $thumbnail = get_the_post_thumbnail_url(get_the_ID(), 'large');
-    $work_terms = get_the_terms(get_the_ID(), 'work_tags');
-?>
-<div class="home__case__list__inner">
-<a class="home__case__list__inner-img" href="<?php echo $takeeats_url; ?>" target="_blank">
-<img src="<?php echo $thumbnail; ?>" alt="<?php echo $ttl; ?>">
-</a>
-<div class="home__case__list__inner-info">
-<h3><a href="<?php echo $takeeats_url; ?>" target="_blank"><?php echo $ttl; ?><small>様</small></a></h3>
-<?php if($work_terms): ?>
-<div class="home__case__list__inner-tag">
-<?php foreach ($work_terms as $term): ?>
-<span><?php echo $term->name; ?></span>
-<?php endforeach; ?>
+<p class="text-center font-weight-bold h5">さらに</p>
+<div class="lp__support-beginner">
+<p>はじめての方も安心して<br>テイクアクトを始められるように<img src="<?php echo $img_url; ?>icon_start.png" alt="初心者" srcset="<?php echo $img_url; ?>icon_start.png 1x, <?php echo $img_url; ?>icon_start@2x.png 2x"></p>
 </div>
-<?php endif; ?>
+<h2 class="lp-ttl2">TakeEatsが<br><span class="marks">すべてサポートいたします！</span></h2>
+<div class="lp__support__list">
+<div class="lp__support__list-wrap">
+<div class="lp__support__list-inner">
+<img class="w-100" src="<?php echo $img_url; ?>support_1.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_1.png 1x, <?php echo $img_url; ?>support_1@2x.png 2x">
 </div>
-<div class="home__case__list__inner-btn">
-<a class="btn btn-light font-weight-bold" href="<?php echo $takeeats_url; ?>" target="_blank">サイトを見る</a>
+<div class="lp__support__list-inner">
+<img class="w-100" src="<?php echo $img_url; ?>support_2.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_2.png 1x, <?php echo $img_url; ?>support_2@2x.png 2x">
+</div>
+<div class="lp__support__list-inner">
+<img class="w-100" src="<?php echo $img_url; ?>support_3.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_3.png 1x, <?php echo $img_url; ?>support_3@2x.png 2x">
 </div>
 </div>
-<!-- home__case__list__inner -->
-<?php endforeach; wp_reset_postdata(); ?>
+<div class="lp__support__list-wrap">
+<div class="lp__support__list-inner">
+<img class="w-100" src="<?php echo $img_url; ?>support_4.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_4.png 1x, <?php echo $img_url; ?>support_4@2x.png 2x">
 </div>
-<!-- home__case__list -->
+<div class="lp__support__list-inner">
+<a href="https://take-eats.jp" target="_blank"><img class="w-100" src="<?php echo $img_url; ?>support_5.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_5.png 1x, <?php echo $img_url; ?>support_5@2x.png 2x"></a>
+</div>
+<div class="lp__support__list-inner">
+<img class="w-100" src="<?php echo $img_url; ?>support_6.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_6.png 1x, <?php echo $img_url; ?>support_6@2x.png 2x">
+</div>
+<div class="lp__support__list-inner">
+<img class="w-100" src="<?php echo $img_url; ?>support_7.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_7.png 1x, <?php echo $img_url; ?>support_7@2x.png 2x">
+</div>
+</div>
+</div>
 </div>
 </section>
 
-<section id="features" class="sec home__features">
+<section class="py-5 lp__price">
 <div class="container">
-<h2 class="ttl-h2 text-center">
-<span>Service Features</span>
-<span>TakeEatsが選ばれる<br class="d-md-none">3つの理由</span>
-</h2>
+<h2 class="lp-ttl2"><span class="marks">料金</span></h2>
+<div class="text-center">
+<img class="d-md-none" src="<?php echo $img_url; ?>lp_price.png" alt="TakeEatsの料金" srcset="<?php echo $img_url; ?>lp_price.png 1x, <?php echo $img_url; ?>lp_price@2x.png 2x">
+<img class="d-md-inline d-none" src="<?php echo $img_url; ?>lp_price_pc.png" alt="TakeEatsの料金" srcset="<?php echo $img_url; ?>lp_price_pc.png 1x, <?php echo $img_url; ?>lp_price_pc@2x.png 2x">
 </div>
-<div class="home__features__wrap">
-<div class="home__features__wrap__inner">
-<span class="home__features__wrap__inner-no">01</span>
-<div class="home__features__wrap__inner-img">
-<img src="<?php echo $img_url; ?>features_img_1.png" alt="初期費用・月額費用0円" srcset="<?php echo $img_url; ?>features_img_1.png 1x, <?php echo $img_url; ?>features_img_1@2x.png 2x">
-</div>
-<h3 class="home__features__wrap__inner-ttl">初期費用・月額費用0円</h3>
-<p>初期導入費・月額利用料はすべて無料！費用はご注文時の決済手数料のみで、固定費はかかりません。（オプションをご選択の場合は別途費用）</p>
-<p class="text-center mb-0 mt-3"><a class="btn btn-primary" href="<?php echo $home; ?>/price/">詳しく見る</a></p>
-</div>
-<!-- home__features__wrap__inner -->
-<div class="home__features__wrap__inner">
-<span class="home__features__wrap__inner-no">02</span>
-<div class="home__features__wrap__inner-img">
-<img src="<?php echo $img_url; ?>features_img_1.png" alt="店舗オリジナルページを作成" srcset="<?php echo $img_url; ?>features_img_2.png 1x, <?php echo $img_url; ?>features_img_2@2x.png 2x">
-</div>
-<h3 class="home__features__wrap__inner-ttl">店舗オリジナルページを作成</h3>
-<p>1つ1つの店舗にURLを発行し、ホームページのように運用いただくことが可能です。SNS等から直接購入ページに来ていただくことが可能です。</p>
-<p class="text-center mb-0 mt-3"><a class="btn btn-primary" href="<?php echo $home; ?>/features/">詳しく見る</a></p>
-</div>
-<!-- home__features__wrap__inner -->
-<div class="home__features__wrap__inner">
-<span class="home__features__wrap__inner-no">03</span>
-<div class="home__features__wrap__inner-img">
-<img src="<?php echo $img_url; ?>features_img_1.png" alt="売上アップの仕組み" srcset="<?php echo $img_url; ?>features_img_3.png 1x, <?php echo $img_url; ?>features_img_3@2x.png 2x">
-</div>
-<h3 class="home__features__wrap__inner-ttl">売上アップの仕組みを提供</h3>
-<p>GoogleMapとの連携やTakeEats公式店舗検索サイトへの掲載、SEO対策など、独自サイトならではのプロモーションが可能です。</p>
-<p class="text-center mb-0 mt-3"><a class="btn btn-primary" href="<?php echo $home; ?>/marketing/">詳しく見る</a></p>
-</div>
-<!-- home__features__wrap__inner -->
-</div>
-<!-- home__features__wrap -->
-</section>
-<!-- features -->
-<section id="system" class="sec home__system">
-<div class="container">
-<h2 class="ttl-h2 text-center">
-<span>system</span>
-<span>お店によって様々な<br class="d-md-none">機能を自由に</span>
-</h2>
-<div class="home__system__slide">
-<div>
-<div class="home__system__slide__inner">
-<div class="home__system__slide-thumbnail">
-<img src="<?php echo $img_url; ?>option_icon_1.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_1.png 1x, <?php echo $img_url; ?>option_icon_1@2x.png 2x">
-</div>
-<h3>カード決済</h3>
-</div>
-</div>
-<div>
-<div class="home__system__slide__inner">
-<div class="home__system__slide-thumbnail">
-<img src="<?php echo $img_url; ?>option_icon_2.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_2.png 1x, <?php echo $img_url; ?>option_icon_2@2x.png 2x">
-</div>
-<h3>デザインカスタム</h3>
-</div>
-</div>
-<div>
-<div class="home__system__slide__inner">
-<div class="home__system__slide-thumbnail">
-<img src="<?php echo $img_url; ?>option_icon_3.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_3.png 1x, <?php echo $img_url; ?>option_icon_3@2x.png 2x">
-</div>
-<h3>FAX転送</h3>
-</div>
-</div>
-<div>
-<div class="home__system__slide__inner">
-<div class="home__system__slide-thumbnail">
-<img src="<?php echo $img_url; ?>option_icon_4.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_4.png 1x, <?php echo $img_url; ?>option_icon_4@2x.png 2x">
-</div>
-<h3>お気持ちオプション</h3>
-</div>
-</div>
-<div>
-<div class="home__system__slide__inner">
-<div class="home__system__slide-thumbnail">
-<img src="<?php echo $img_url; ?>option_icon_6.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_6.png 1x, <?php echo $img_url; ?>option_icon_6@2x.png 2x">
-</div>
-<h3>お知らせ</h3>
-</div>
-</div>
-<div>
-<div class="home__system__slide__inner">
-<div class="home__system__slide-thumbnail">
-<img src="<?php echo $img_url; ?>option_icon_5.png" alt="アイコン" srcset="<?php echo $img_url; ?>option_icon_5.png 1x, <?php echo $img_url; ?>option_icon_5@2x.png 2x">
-</div>
-<h3>SNS連携</h3>
-</div>
-</div>
-</div>
-<!-- home__system__slide -->
-<div class="mt-md-5 mt-4 text-center">
-<a class="btn btn-outline-primary" href="<?php echo $home; ?>/features/">詳しくみる</a>
-</div>
+<p class="small my-3 text-md-center">※オプションをご選択の場合は別途費用がかかります。
+<br>※クレジットカードでの決済の場合手数料3.6%が別途発生します。</p>
+<p class="mb-0 mt-5 text-center"><a class="font-weight-bold text-body" href="<?php echo $home; ?>/price/">料金を詳しくみる<i class="fas fa-caret-right ml-2"></i></a></p>
 </div>
 </section>
-<!-- system -->
+
 <section id="flow" class="sec home__flow">
 <img class="home__flow-illust" src="<?php echo $img_url; ?>flow_illust_1.png" alt="背景">
 <div class="container">
@@ -214,7 +199,7 @@ foreach ($work_posts as $post):
 <div class="home__flow__list__inner-step">STEP<span>01</span></div>
 <div class="home__flow__list__inner-txt">
 <h3>お申し込み</h3>
-<p>お客様のご相談を受け付けます。</p>
+<p>お申込みフォームより必要事項のご入力をお願い致します。<br>担当者よりお電話にてご連絡致します。</p>
 </div>
 </li>
 <!-- home__flow__list__inner -->
@@ -222,7 +207,7 @@ foreach ($work_posts as $post):
 <div class="home__flow__list__inner-step">STEP<span>02</span></div>
 <div class="home__flow__list__inner-txt">
 <h3>アカウント発行</h3>
-<p>お申込みフォームより必要事項のご入力いただきます。</p>
+<p>お店の専用予約ページを作成しアカウントを発行致します。</p>
 </div>
 </li>
 <!-- home__flow__list__inner -->
@@ -230,7 +215,7 @@ foreach ($work_posts as $post):
 <div class="home__flow__list__inner-step">STEP<span>03</span></div>
 <div class="home__flow__list__inner-txt">
 <h3>メニュー登録</h3>
-<p>システム導入にあたり詳細やご希望をお伺いします。</p>
+<p>販売する商品の登録を行います。<br>(※無料代行サービス実施中)</p>
 </div>
 </li>
 <!-- home__flow__list__inner -->
@@ -238,7 +223,7 @@ foreach ($work_posts as $post):
 <div class="home__flow__list__inner-step">STEP<span>04</span></div>
 <div class="home__flow__list__inner-txt">
 <h3>ご利用スタート</h3>
-<p>準備が整いました。ご利用スタートです！</p>
+<p>準備が整ったら早速注文の受け付けを行いましょう。</p>
 </div>
 </li>
 <!-- home__flow__list__inner -->
@@ -251,4 +236,72 @@ foreach ($work_posts as $post):
 </div>
 </section>
 <!-- flow -->
-<?php get_footer();
+
+<section id="lpform" class="lp__form">
+<img src="<?php echo $img_url; ?>icon_cta.png" alt="イラスト" srcset="<?php echo $img_url; ?>icon_cta.png 1x, <?php echo $img_url; ?>icon_cta@2x.png 2x">
+<div class="container">
+<div class="text-center lp__form-top">
+<img src="<?php echo $img_url; ?>cta_top.png" alt="初期費用0円" srcset="<?php echo $img_url; ?>cta_top.png 1x, <?php echo $img_url; ?>cta_top@2x.png 2x">
+</div>
+<h3>お申し込みフォーム</h3>
+<div><?php the_content(); ?></div>
+</div>
+</section>
+
+</main>
+<!-- #main -->
+
+<footer class="footer">
+<div class="container">
+<div class="footer__link__inner">
+<h3>サービス紹介</h3>
+<ul>
+<li><a href="<?php echo $home; ?>/features/">機能紹介</a></li>
+<li><a href="<?php echo $home; ?>/price/">料金</a></li>
+<li><a href="<?php echo $home; ?>/marketing/">集客・販売促進</a></li>
+<li><a href="<?php echo $home; ?>/flow/">導入の流れ</a></li>
+<li><a href="<?php $home; ?>/faq/">よくあるご質問</a></li>
+</ul>
+</div>
+<!-- footer__link__inner -->
+<div class="footer__link__inner">
+<h3>企業情報</h3>
+<ul>
+<li><a href="<?php $home; ?>/contact/">お問い合わせ</a></li>
+<li><a href="<?php echo $home; ?>/company/">運営会社</a></li>
+<li><a href="<?php echo $home; ?>/privacy-policy/">プライバシーポリシー</a></li>
+<li><a href="<?php echo $home; ?>/law/">特定商取引法に基づく表記</a></li>
+<li><a href="<?php echo $home; ?>/term/">利用規約</a></li>
+</ul>
+</div>
+<!-- footer__link__inner -->
+</div>
+</div>
+<!-- footer__link -->
+<p class="copy">©2020 <?php bloginfo("name"); ?></p>
+<a id="toform" class="footer-ctabtn" href="<?php echo $home; ?>/#lpform"><span class="mb-1">＼ 初期・月額費用0円 ／</span><strong>最短即日</strong>お申し込み</a>
+</footer>
+<!-- #footer -->
+
+<script src="<?php echo $wp_url; ?>/dist/js/bundle.js?ver=1.0.0" defer></script>
+<?php wp_footer(); ?>
+<script>
+const toform = document.getElementById("toform");
+window.addEventListener("scroll", () => {
+  const srollVal = window.pageYOffset;
+  const observer = new IntersectionObserver((entries) => {
+    if (srollVal < 500) {
+      toform.style.bottom = '-100%';
+    } else {
+      if (entries[0].isIntersecting == true) {
+        toform.style.bottom = '-100%';
+      } else {
+        toform.style.bottom = 0;
+      }
+    }
+  });
+  observer.observe(document.getElementById("lpform"));
+});
+</script>
+</body>
+</html>

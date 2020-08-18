@@ -64,7 +64,7 @@ $img_url = get_template_directory_uri().'/dist/images/'; ?>
 <!-- footer__link -->
 <p class="copy">©2020 <?php bloginfo("name"); ?></p>
 <?php if(!is_page(['request', 'contact'])): ?>
-<a id="toform" class="footer-ctabtn" href="<?php echo $home; ?>/lp/#lpform"><span class="mb-2">＼ 初期・月額費用0円 ／</span><strong>最短即日</strong>お申し込み</a>
+<a id="toform" class="footer-ctabtn" href="<?php echo $home; ?>/#lpform"><span class="mb-1">＼ 初期・月額費用0円 ／</span><strong>最短即日</strong>お申し込み</a>
 <?php endif; ?>
 </footer>
 
