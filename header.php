@@ -31,11 +31,50 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <?php endif; ?>
 <?php wp_body_open(); ?>
 
+<header id="header" class="lp__header">
+
+<nav class="lp__nav">
+<h1>
+<img src="<?php echo $img_url; ?>logo.png" alt="<?php bloginfo("name"); ?>" srcset="<?php echo $img_url; ?>logo.png 1x, <?php echo $img_url; ?>logo@2x.png 2x">
+<span>飲食店向け</span>
+</h1>
+
+<div class="drawer">
+<input class="drawer__checkbox" id="drawerCheckbox" type="checkbox">
+<label class="drawer__icon" for="drawerCheckbox">
+<span class="drawer__icon-parts"></span>
+</label>
+
+<ul class="drawer__menu">
+<li><a href="<?php $home; ?>/features/">機能紹介</a></li>
+<li><a href="<?php $home; ?>/price/">料金</a></li>
+<li><a href="<?php $home; ?>/marketing/">集客・販売促進</a></li>
+<li><a href="<?php $home; ?>/flow/">導入の流れ</a></li>
+<li><a href="<?php $home; ?>/faq/">よくあるご質問</a></li>
+<li><a href="<?php $home; ?>/work/">導入事例</a></li>
+
+<li class="drawer__menu-cta"><a href="<?php $home; ?>/lp#lpform">お申し込み<i class="fas fa-arrow-right"></i></a></li>
+<li class="drawer__menu-request"><a href="<?php $home; ?>/request/">資料請求・お問い合わせ<i class="fas fa-arrow-right"></i></a></li>
+<li class="drawer__menu-tel">
+<a class="footer__cta__links-tel" href="tel:075-600-2721">
+<span>TEL</span>
+<span>075-600-2721</span>
+<small>10：00〜18：00（土日祝除く）</small>
+</a>
+</li>
+</ul>
+</div>
+
+</nav>
+<!-- .lp__nav -->
+</header>
+<!-- #header -->
+
 <?php if (is_home() || is_front_page()): ?>
-<img class="mv-illust" src="<?php echo $img_url; ?>mv_illust_1.png" alt="背景">
+<!-- <img class="mv-illust" src="<?php echo $img_url; ?>mv_illust_1.png" alt="背景"> -->
 <?php endif; ?>
 
-<header class="header">
+<!-- <header class="header">
 <nav class="navbar navbar-expand-lg">
 <a class="navbar-brand" href="<?php $home; ?>/"><img src="<?php echo $wp_url; ?>/dist/images/logo.png" alt="<?php bloginfo("name"); ?>" srcset="<?php echo $wp_url; ?>/dist/images/logo.png 1x, <?php echo $wp_url; ?>/dist/images/logo@2x.png 2x"></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,7 +95,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <a class="header-cta" href="<?php $home; ?>/request/">お申し込み</a>
 
-</header>
+</header> -->
 <!-- header -->
 <main>
 <?php if (!is_home() && !is_front_page() && !is_single()  && !is_archive()): // 下層ページ ?>

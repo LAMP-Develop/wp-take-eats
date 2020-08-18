@@ -64,11 +64,22 @@ $img_url = get_template_directory_uri().'/dist/images/'; ?>
 <!-- footer__link -->
 <p class="copy">©2020 <?php bloginfo("name"); ?></p>
 <?php if(!is_page(['request', 'contact'])): ?>
-<a class="footer-ctabtn" href="<?php $home; ?>/request/"><span>＼ 最短即日 ／</span>無料でお店に導入！</a>
+<a id="toform" class="footer-ctabtn" href="<?php echo $home; ?>/lp/#lpform"><span class="mb-2">＼ 初期・月額費用0円 ／</span><strong>最短即日</strong>お申し込み</a>
 <?php endif; ?>
 </footer>
 
 <script src="<?php echo $wp_url; ?>/dist/js/bundle.js?ver=1.0.1" defer></script>
 <?php wp_footer(); ?>
+<script>
+const toform = document.getElementById("toform");
+window.addEventListener("scroll", () => {
+  const srollVal = window.pageYOffset;
+  if (srollVal < 500) {
+      toform.style.bottom = '-100%';
+    } else {
+      toform.style.bottom = 0;
+    }
+});
+</script>
 </body>
 </html>
