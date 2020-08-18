@@ -46,14 +46,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <span class="drawer__icon-parts"></span>
 </label>
 <ul class="drawer__menu">
-<li><a href="<?php $home; ?>/features/">機能紹介</a></li>
-<li><a href="<?php $home; ?>/price/">料金</a></li>
-<li><a href="<?php $home; ?>/marketing/">集客・販売促進</a></li>
-<li><a href="<?php $home; ?>/work/">導入事例</a></li>
-<li><a href="<?php $home; ?>/flow/">導入の流れ</a></li>
-<li><a href="<?php $home; ?>/faq/">よくあるご質問</a></li>
-<li class="drawer__menu-cta"><a href="<?php $home; ?>/#lpform">お申し込み<i class="fas fa-arrow-right"></i></a></li>
-<li class="drawer__menu-request"><a href="<?php $home; ?>/request/">資料請求・お問い合わせ<i class="fas fa-arrow-right"></i></a></li>
+<li><a href="<?php echo $home; ?>/features/">機能紹介</a></li>
+<li><a href="<?php echo $home; ?>/price/">料金</a></li>
+<li><a href="<?php echo $home; ?>/marketing/">集客・販売促進</a></li>
+<li><a href="<?php echo $home; ?>/work/">導入事例</a></li>
+<li><a href="<?php echo $home; ?>/flow/">導入の流れ</a></li>
+<li><a href="<?php echo $home; ?>/faq/">よくあるご質問</a></li>
+<li class="drawer__menu-cta"><a href="<?php echo $home; ?>/#lpform">お申し込み<i class="fas fa-arrow-right"></i></a></li>
+<li class="drawer__menu-request"><a href="<?php echo $home; ?>/contact/">資料請求・お問い合わせ<i class="fas fa-arrow-right"></i></a></li>
 <li class="drawer__menu-tel">
 <a class="footer__cta__links-tel" href="tel:075-600-2721">
 <span>TEL</span>
@@ -67,7 +67,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- .lp__nav -->
 
 <div class="lp__nav-btn">
-<a href="<?php $home; ?>/#lpform">お申し込み<i class="fas fa-arrow-right"></i></a>
+<a href="<?php echo $home; ?>/#lpform">お申し込み<i class="fas fa-arrow-right"></i></a>
 </div>
 
 </header>
