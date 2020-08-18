@@ -26,7 +26,7 @@ get_header(); ?>
 <img src="<?php echo $img_url; ?>flow_pic_2@2x.png" alt="お申し込み">
 </div>
 <div class="text-center mt-4">
-<a class="btn btn-outline-dark" href="<?php echo $home; ?>/request/" onclick="gtag('event', 'click', {'event_category': 'link','event_label': 'お申し込み'});">お申し込みはこちら</a>
+<a class="btn btn-outline-dark" href="<?php echo $home; ?>/#lpform" onclick="gtag('event', 'click', {'event_category': 'link','event_label': 'お申し込み'});">お申し込みはこちら</a>
 </div>
 </div>
 <div class="flow__list__inner">

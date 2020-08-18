@@ -12,7 +12,7 @@ get_header(); ?>
 <p class="footer__cta__tel-num mb-1"><a class="text-body font-weight-bold" href="tel:075-600-2721"><span class="mr-2">TEL</span>075-600-2721</a></p>
 <p class="small">10：00〜18：00（土日祝除く）</p>
 </div>
-<?php echo do_shortcode('[contact-form-7 id="12" title="お問い合わせ"]'); ?>
+<?php the_content(); ?>
 </div>
 </section>
 <?php get_footer();

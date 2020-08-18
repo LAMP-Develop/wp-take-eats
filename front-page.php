@@ -260,14 +260,14 @@ get_header(); ?>
 <li><a href="<?php echo $home; ?>/price/">料金</a></li>
 <li><a href="<?php echo $home; ?>/marketing/">集客・販売促進</a></li>
 <li><a href="<?php echo $home; ?>/flow/">導入の流れ</a></li>
-<li><a href="<?php $home; ?>/faq/">よくあるご質問</a></li>
+<li><a href="<?php echo $home; ?>/faq/">よくあるご質問</a></li>
 </ul>
 </div>
 <!-- footer__link__inner -->
 <div class="footer__link__inner">
 <h3>企業情報</h3>
 <ul>
-<li><a href="<?php $home; ?>/contact/">お問い合わせ</a></li>
+<li><a href="<?php echo $home; ?>/contact/">お問い合わせ</a></li>
 <li><a href="<?php echo $home; ?>/company/">運営会社</a></li>
 <li><a href="<?php echo $home; ?>/privacy-policy/">プライバシーポリシー</a></li>
 <li><a href="<?php echo $home; ?>/law/">特定商取引法に基づく表記</a></li>
