@@ -62,16 +62,29 @@ $img_url = get_template_directory_uri().'/dist/images/'; ?>
 </div>
 </div>
 <!-- footer__link -->
-<p class="copy">©2020 <?php bloginfo("name"); ?></p>
 <?php if(!is_page(['request', 'contact'])): ?>
 <a id="toform" class="footer-ctabtn" href="<?php echo $home; ?>/#lpform"><span class="mb-1">＼ 初期・月額費用0円 ／</span><strong>最短即日</strong>お申し込み</a>
 <?php endif; ?>
 </footer>
 
+<p class="copy">©2020 <?php bloginfo("name"); ?></p>
+
 <script src="<?php echo $wp_url; ?>/dist/js/bundle.js?ver=1.0.1" defer></script>
 <?php wp_footer(); ?>
 <script>
 const toform = document.getElementById("toform");
+
+document.addEventListener("click", e => {
+  const target = e.target;
+  if (!target.classList.contains("smooth-scroll")) return;
+  e.preventDefault();
+  const targetId = target.hash;
+  document.querySelector(targetId).scrollIntoView({
+    behavior: "smooth",
+    block: "start"
+  });
+});
+
 window.addEventListener("scroll", () => {
   const srollVal = window.pageYOffset;
   if (srollVal < 500) {

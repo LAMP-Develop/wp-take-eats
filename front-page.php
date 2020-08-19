@@ -8,7 +8,7 @@ get_header(); ?>
 <div class="container">
 <div class="lp__hero-wrap">
 <p class="text-center">
-<img src="<?php echo $img_url; ?>lp_hero_top.png" alt="初期費用・月額費用0円" srcset="<?php echo $img_url; ?>lp_hero_top.png 1x, <?php echo $img_url; ?>lp_hero_top@2x.png 2x">
+<img class="lp__hero-txt" src="<?php echo $img_url; ?>lp_hero_top.png" alt="初期費用・月額費用0円" srcset="<?php echo $img_url; ?>lp_hero_top.png 1x, <?php echo $img_url; ?>lp_hero_top@2x.png 2x">
 </p>
 <div class="lp__hero-demo">
 <img src="<?php echo $img_url; ?>mv_lp_pict.png" alt="スマホ画面" srcset="<?php echo $img_url; ?>mv_lp_pict.png 1x, <?php echo $img_url; ?>mv_lp_pict@2x.png 2x">
@@ -127,7 +127,7 @@ get_header(); ?>
 <div class="lp__cta__box">
 <h2><span>＼ 即日対応！ ／</span>無料でお店に導入！</h2>
 <div class="text-center">
-<a href="<?php echo $home; ?>/#lpform">
+<a class="smooth-scroll" href="<?php echo $home; ?>/#lpform">
 <img src="<?php echo $img_url; ?>lp_cta_btn.png" alt="無料でお店に導入" srcset="<?php echo $img_url; ?>lp_cta_btn.png 1x, <?php echo $img_url; ?>lp_cta_btn@2x.png 2x">
 </a>
 </div>
@@ -252,7 +252,7 @@ get_header(); ?>
 <!-- #main -->
 
 <footer class="footer">
-<div class="container">
+<div class="container py-5">
 <div class="footer__link__inner">
 <h3>サービス紹介</h3>
 <ul>
@@ -278,15 +278,28 @@ get_header(); ?>
 </div>
 </div>
 <!-- footer__link -->
-<p class="copy">©2020 <?php bloginfo("name"); ?></p>
 <a id="toform" class="footer-ctabtn" href="<?php echo $home; ?>/#lpform"><span class="mb-1">＼ 初期・月額費用0円 ／</span><strong>最短即日</strong>お申し込み</a>
 </footer>
 <!-- #footer -->
+
+<p class="copy">©2020 <?php bloginfo("name"); ?></p>
 
 <script src="<?php echo $wp_url; ?>/dist/js/bundle.js?ver=1.0.0" defer></script>
 <?php wp_footer(); ?>
 <script>
 const toform = document.getElementById("toform");
+
+document.addEventListener("click", e => {
+  const target = e.target;
+  if (!target.classList.contains("smooth-scroll")) return;
+  e.preventDefault();
+  const targetId = target.hash;
+  document.querySelector(targetId).scrollIntoView({
+    behavior: "smooth",
+    block: "start"
+  });
+});
+
 window.addEventListener("scroll", () => {
   const srollVal = window.pageYOffset;
   const observer = new IntersectionObserver((entries) => {
