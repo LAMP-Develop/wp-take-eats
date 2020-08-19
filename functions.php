@@ -60,7 +60,7 @@ add_filter('document_title_separator', 'title_separator');
 // 標準のjquery消去
 function my_delete_local_jquery()
 {
-    if (!is_page('request') && !is_page('contact')) {
+    if (!is_page('request') && !is_page('contact') && !is_home() && !is_front_page()) {
         wp_deregister_script('jquery');
     }
 }
@@ -94,29 +94,3 @@ function gutenberg_support_setup()
     add_editor_style('editor-style.css');
 }
 add_action('after_setup_theme', 'gutenberg_support_setup');
-
-// CSSの管理
-// function twpp_enqueue_styles()
-// {
-//     wp_enqueue_style(
-//         'main-style',
-//         get_template_directory_uri().'/dist/css/style.css',
-//         [],
-//         '1.0.0',
-//         'all'
-//     );
-// }
-// add_action('wp_enqueue_scripts', 'twpp_enqueue_styles');
-
-// JSの管理
-// function add_my_scripts()
-// {
-//     wp_enqueue_script(
-//         'base-script',
-//         get_template_directory_uri().'/dist/js/bundle.js',
-//         [],
-//         '1.0.0',
-//         true
-//     );
-// }
-// add_action('wp_enqueue_scripts', 'add_my_scripts');
