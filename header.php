@@ -37,7 +37,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <h1>
 <a href="<?php echo $home; ?>">
 <img src="<?php echo $img_url; ?>logo.png" alt="<?php bloginfo("name"); ?>" srcset="<?php echo $img_url; ?>logo.png 1x, <?php echo $img_url; ?>logo@2x.png 2x">
-<span class="text-body">飲食店向け</span>
+<span class="text-body">飲食店様向け</span>
 </a>
 </h1>
 <div class="drawer">
