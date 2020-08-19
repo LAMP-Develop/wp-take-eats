@@ -26,49 +26,49 @@ get_header(); ?>
 <div class="lp__case-slide__inner">
 <div class="lp__case-slide__inner-balloon">スイーツ</div>
 <div class="lp__case-slide__inner-logo">
-<img src="<?php echo $img_url; ?>lp_logo_1.png" alt="マールブランシュ" srcset="<?php echo $img_url; ?>lp_logo_1.png 1x, <?php echo $img_url; ?>lp_logo_1@2x.png 2x">
+<span><img src="<?php echo $img_url; ?>lp_logo_1.png" alt="マールブランシュ" srcset="<?php echo $img_url; ?>lp_logo_1.png 1x, <?php echo $img_url; ?>lp_logo_1@2x.png 2x"></span>
 </div>
 </div>
 <div class="lp__case-slide__inner">
 <div class="lp__case-slide__inner-balloon">お寿司</div>
 <div class="lp__case-slide__inner-logo">
-<img src="<?php echo $img_url; ?>lp_logo_2.png" alt="寿しのむさし" srcset="<?php echo $img_url; ?>lp_logo_2.png 1x, <?php echo $img_url; ?>lp_logo_2@2x.png 2x">
+<span><img src="<?php echo $img_url; ?>lp_logo_2.png" alt="寿しのむさし" srcset="<?php echo $img_url; ?>lp_logo_2.png 1x, <?php echo $img_url; ?>lp_logo_2@2x.png 2x"></span>
 </div>
 </div>
 <div class="lp__case-slide__inner">
 <div class="lp__case-slide__inner-balloon">和食</div>
 <div class="lp__case-slide__inner-logo">
-<img src="<?php echo $img_url; ?>lp_logo_3.png" alt="さいき家" srcset="<?php echo $img_url; ?>lp_logo_3.png 1x, <?php echo $img_url; ?>lp_logo_3@2x.png 2x">
+<span><img src="<?php echo $img_url; ?>lp_logo_3.png" alt="さいき家" srcset="<?php echo $img_url; ?>lp_logo_3.png 1x, <?php echo $img_url; ?>lp_logo_3@2x.png 2x"></span>
 </div>
 </div>
 <div class="lp__case-slide__inner">
 <div class="lp__case-slide__inner-balloon">カフェ</div>
 <div class="lp__case-slide__inner-logo">
-<img src="<?php echo $img_url; ?>lp_logo_4.png" alt="KAWA Cafe" srcset="<?php echo $img_url; ?>lp_logo_4.png 1x, <?php echo $img_url; ?>lp_logo_4@2x.png 2x">
+<span><img src="<?php echo $img_url; ?>lp_logo_4.png" alt="KAWA Cafe" srcset="<?php echo $img_url; ?>lp_logo_4.png 1x, <?php echo $img_url; ?>lp_logo_4@2x.png 2x"></span>
 </div>
 </div>
 <div class="lp__case-slide__inner">
 <div class="lp__case-slide__inner-balloon">居酒屋</div>
 <div class="lp__case-slide__inner-logo">
-<img src="<?php echo $img_url; ?>lp_logo_5.png" alt="ほうせい丸" srcset="<?php echo $img_url; ?>lp_logo_5.png 1x, <?php echo $img_url; ?>lp_logo_5@2x.png 2x">
+<span><img src="<?php echo $img_url; ?>lp_logo_5.png" alt="ほうせい丸" srcset="<?php echo $img_url; ?>lp_logo_5.png 1x, <?php echo $img_url; ?>lp_logo_5@2x.png 2x"></span>
 </div>
 </div>
 <div class="lp__case-slide__inner">
 <div class="lp__case-slide__inner-balloon">カフェ</div>
 <div class="lp__case-slide__inner-logo">
-<img src="<?php echo $img_url; ?>lp_logo_6.png" alt="プルクワ" srcset="<?php echo $img_url; ?>lp_logo_6.png 1x, <?php echo $img_url; ?>lp_logo_6@2x.png 2x">
+<span><img src="<?php echo $img_url; ?>lp_logo_6.png" alt="プルクワ" srcset="<?php echo $img_url; ?>lp_logo_6.png 1x, <?php echo $img_url; ?>lp_logo_6@2x.png 2x"></span>
 </div>
 </div>
 <div class="lp__case-slide__inner">
 <div class="lp__case-slide__inner-balloon">カレー</div>
 <div class="lp__case-slide__inner-logo">
-<img src="<?php echo $img_url; ?>lp_logo_7.png" alt="200円カレー" srcset="<?php echo $img_url; ?>lp_logo_7.png 1x, <?php echo $img_url; ?>lp_logo_7@2x.png 2x">
+<span><img src="<?php echo $img_url; ?>lp_logo_7.png" alt="200円カレー" srcset="<?php echo $img_url; ?>lp_logo_7.png 1x, <?php echo $img_url; ?>lp_logo_7@2x.png 2x"></span>
 </div>
 </div>
 <div class="lp__case-slide__inner">
 <div class="lp__case-slide__inner-balloon">和食</div>
 <div class="lp__case-slide__inner-logo">
-<img src="<?php echo $img_url; ?>lp_logo_8.png" alt="鴨LABO" srcset="<?php echo $img_url; ?>lp_logo_8.png 1x, <?php echo $img_url; ?>lp_logo_8@2x.png 2x">
+<span><img src="<?php echo $img_url; ?>lp_logo_8.png" alt="鴨LABO" srcset="<?php echo $img_url; ?>lp_logo_8.png 1x, <?php echo $img_url; ?>lp_logo_8@2x.png 2x"></span>
 </div>
 </div>
 </div>
