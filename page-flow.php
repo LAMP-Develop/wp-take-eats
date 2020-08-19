@@ -6,6 +6,8 @@ get_header(); ?>
 <section class="sec flow">
 <div class="container">
 <p class="text-md-center font-weight-bold">TakeEatsはお申し込みからアカウント発行まで最短即日で導入可能！</p>
+
+<div class="flow__list">
 <div class="flow__list__inner">
 <div class="home__flow__list__inner-step">STEP<span>01</span></div>
 <h3>お申し込み</h3>
@@ -25,8 +27,7 @@ get_header(); ?>
 <div class="flow__list__inner">
 <div class="home__flow__list__inner-step">STEP<span>03</span></div>
 <h3>アカウント発行</h3>
-<p>お客様専用のテイクアウトサイトを制作・導入いたします。
-<br>※別途オプションによってお時間がかかる場合がございます。</p>
+<p>お店の専用サイトを作成しアカウントを発行致します。<br>※別途オプションによってお時間がかかる場合がございます。</p>
 <div class="flow__list__inner-thumbnail">
 <img src="<?php echo $img_url; ?>flow_pic_3@2x.png" alt="アカウント発行">
 </div>
