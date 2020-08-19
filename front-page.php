@@ -251,7 +251,7 @@ get_header(); ?>
 </main>
 <!-- #main -->
 
-<footer class="footer">
+<footer class="footer mt-0">
 <div class="container py-5">
 <div class="footer__link__inner">
 <h3>サービス紹介</h3>
