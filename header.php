@@ -51,7 +51,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li><a href="<?php echo $home; ?>/marketing/">集客・販売促進</a></li>
 <li><a href="<?php echo $home; ?>/work/">導入事例</a></li>
 <li><a href="<?php echo $home; ?>/flow/">導入の流れ</a></li>
-<li><a href="<?php echo $home; ?>/faq/">よくあるご質問</a></li>
+<li class="d-lg-block d-none"><a href="<?php echo $home; ?>/contact/">お問い合わせ</a></li>
 <li class="drawer__menu-cta"><a class="smooth-scroll" href="<?php echo $home; ?>/#lpform">お申し込み<i class="fas fa-arrow-right"></i></a></li>
 <li class="drawer__menu-request"><a href="<?php echo $home; ?>/contact/">資料請求・お問い合わせ<i class="fas fa-arrow-right"></i></a></li>
 <li class="drawer__menu-tel">
