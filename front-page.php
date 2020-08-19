@@ -207,7 +207,7 @@ get_header(); ?>
 <div class="home__flow__list__inner-step">STEP<span>02</span></div>
 <div class="home__flow__list__inner-txt">
 <h3>アカウント発行</h3>
-<p>お店の専用予約ページを作成しアカウントを発行致します。</p>
+<p>お店の専用サイトを作成しアカウントを発行致します。</p>
 </div>
 </li>
 <!-- home__flow__list__inner -->
