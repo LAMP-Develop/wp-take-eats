@@ -6,17 +6,17 @@ get_header(); ?>
 <div class="container">
 <h1><?php the_title(); ?></h1>
 <div class="column__step">
-<a href="#step1">
+<a href="#step1" class="smooth-scroll">
 <span class="column__step-no">STEP 01</span>
 <span class="column__step-ttl">まずは知識を身に着けよう</span>
 <i class="fas fa-chevron-down"></i>
 </a>
-<a href="#step1">
+<a href="#step2" class="smooth-scroll">
 <span class="column__step-no">STEP 02</span>
 <span class="column__step-ttl">提供する準備をしよう</span>
 <i class="fas fa-chevron-down"></i>
 </a>
-<a href="#step1">
+<a href="#step3" class="smooth-scroll">
 <span class="column__step-no">STEP 03</span>
 <span class="column__step-ttl">コツを掴んで集客しよう</span>
 <i class="fas fa-chevron-down"></i>
@@ -26,7 +26,7 @@ get_header(); ?>
 </div>
 </section>
 
-<section id="step1" class="smooth-scroll py-5 column__cat  step1">
+<section id="step1" class="py-5 column__cat step1">
 <div class="container">
 <div class="column__cat-thumbnail">
 <img src="<?php echo $wp_url; ?>/dist/images/column_img_1.png" alt="まずは知識を身に着けよう" srcset="<?php echo $wp_url; ?>/dist/images/column_img_1.png 1x, <?php echo $wp_url; ?>/dist/images/column_img_1@2x.png 2x">
@@ -72,7 +72,7 @@ $permalink = get_the_permalink();
 </div>
 </section>
 
-<section id="step2" class="smooth-scroll py-5 column__cat  step2">
+<section id="step2" class="py-5 column__cat step2">
 <div class="container">
 <div class="column__cat-thumbnail">
 <img src="<?php echo $wp_url; ?>/dist/images/column_img_2.png" alt="提供する準備をしよう" srcset="<?php echo $wp_url; ?>/dist/images/column_img_2.png 1x, <?php echo $wp_url; ?>/dist/images/column_img_2@2x.png 2x">
@@ -118,7 +118,7 @@ $permalink = get_the_permalink();
 </div>
 </section>
 
-<section id="step3" class="smooth-scroll py-5 column__cat  step3">
+<section id="step3" class="py-5 column__cat step3">
 <div class="container">
 <div class="column__cat-thumbnail">
 <img src="<?php echo $wp_url; ?>/dist/images/column_img_3.png" alt="コツを掴んで集客しよう" srcset="<?php echo $wp_url; ?>/dist/images/column_img_3.png 1x, <?php echo $wp_url; ?>/dist/images/column_img_3@2x.png 2x">
