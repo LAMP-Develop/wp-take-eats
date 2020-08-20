@@ -164,9 +164,9 @@ get_header(); ?>
 <div class="lp__support__list-inner">
 <img class="w-100" src="<?php echo $img_url; ?>support_6.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_6.png 1x, <?php echo $img_url; ?>support_6@2x.png 2x">
 </div>
-<div class="lp__support__list-inner">
+<!-- <div class="lp__support__list-inner">
 <img class="w-100" src="<?php echo $img_url; ?>support_7.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_7.png 1x, <?php echo $img_url; ?>support_7@2x.png 2x">
-</div>
+</div> -->
 </div>
 </div>
 </div>
@@ -259,8 +259,9 @@ get_header(); ?>
 <li><a href="<?php echo $home; ?>/features/">機能紹介</a></li>
 <li><a href="<?php echo $home; ?>/price/">料金</a></li>
 <li><a href="<?php echo $home; ?>/marketing/">集客・販売促進</a></li>
+<li><a href="<?php echo $home; ?>/work/">導入事例</a></li>
 <li><a href="<?php echo $home; ?>/flow/">導入の流れ</a></li>
-<li><a href="<?php echo $home; ?>/faq/">よくあるご質問</a></li>
+<li><a href="<?php echo $home; ?>/column/">お役立ちガイド</a></li>
 </ul>
 </div>
 <!-- footer__link__inner -->
