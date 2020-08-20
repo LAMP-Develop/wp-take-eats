@@ -60,7 +60,7 @@ add_filter('document_title_separator', 'title_separator');
 // 標準のjquery消去
 function my_delete_local_jquery()
 {
-    if (!is_page('request') && !is_page('contact') && !is_home() && !is_front_page()) {
+    if (!is_page('request') && !is_page('contact') && !is_home() && !is_front_page() && !is_single()) {
         wp_deregister_script('jquery');
     }
 }
