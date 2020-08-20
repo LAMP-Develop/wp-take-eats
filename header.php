@@ -15,19 +15,19 @@ $img_url = get_template_directory_uri().'/dist/images/';
 <?php wp_head(); ?>
 <?php if (!is_user_logged_in()): ?>
 <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WSTPTV7');</script>
+})(window,document,'script','dataLayer','GTM-WSTPTV7');</script> -->
 <!-- End Google Tag Manager -->
 <?php endif; ?>
 </head>
 <body>
 <?php if (!is_user_logged_in()): ?>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSTPTV7"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WSTPTV7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
 <!-- End Google Tag Manager (noscript) -->
 <?php endif; ?>
 <?php wp_body_open(); ?>
@@ -73,7 +73,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </header>
 <!-- #header -->
 <main>
-<?php if (!is_home() && !is_front_page() && !is_single()  && !is_archive()): // 下層ページ ?>
+<?php if (!is_home() && !is_front_page() && !is_single() && !is_archive() && !is_page(['column'])): // 下層ページ ?>
 <section class="sec mv__sub">
 <div class="container">
 <h1><?php the_title(); ?></h1>

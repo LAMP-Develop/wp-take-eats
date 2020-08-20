@@ -22,6 +22,7 @@ get_header(); ?>
 <img class="d-md-none d-block mx-auto" src="<?php echo $img_url; ?>price_table_sp.png" alt="" srcset="<?php echo $img_url; ?>price_table_sp.png 1x, <?php echo $img_url; ?>price_table_sp@2x.png 2x">
 </div>
 
+<div class="">
 <h2 class="price-ttl">クレジットカード支払い分ご入金について</h2>
 <p>個別の決済会社との契約は一切不要！ご指定の銀行口座に入金をいたします。</p>
 <table class="table my-md-5 my-4">
@@ -44,7 +45,9 @@ get_header(); ?>
 </tr>
 </tbody>
 </table>
+</div>
 
+<div>
 <h3 class="h5 font-weight-bold mb-3">ご注意事項</h3>
 <p>入金額が¥5,000を超えている場合に振込となります。¥5,000に満たない場合は、¥5,000を超える月まで振込保留となります。<br>（最大6ヶ月を預り期間上限として、期間経過時は、¥5,000に満たなくても振込）</p>
 <div class="row justify-content-center mt-4">
@@ -53,6 +56,7 @@ get_header(); ?>
 </div>
 <div class="col-md">
 <img class="d-block mx-auto" src="<?php echo $img_url; ?>price_sample_2.png" alt="" srcset="<?php echo $img_url; ?>price_sample_2.png 1x, <?php echo $img_url; ?>price_sample_2@2x.png 2x">
+</div>
 </div>
 </div>
 
