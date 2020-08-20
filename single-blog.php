@@ -35,7 +35,7 @@ $args = [
     'posts_per_page' => -1,
     'post_type' => 'blog',
     'orderby' => 'date',
-    'order' => 'DESC',
+    'order' => 'ASC',
     'tax_query' => [
       [
         'taxonomy' => 'blog_cat',
@@ -70,7 +70,7 @@ $args = [
     'posts_per_page' => -1,
     'post_type' => 'blog',
     'orderby' => 'date',
-    'order' => 'DESC',
+    'order' => 'ASC',
     'tax_query' => [
       [
         'taxonomy' => 'blog_cat',
@@ -105,7 +105,7 @@ $args = [
     'posts_per_page' => -1,
     'post_type' => 'blog',
     'orderby' => 'date',
-    'order' => 'DESC',
+    'order' => 'ASC',
     'tax_query' => [
       [
         'taxonomy' => 'blog_cat',
