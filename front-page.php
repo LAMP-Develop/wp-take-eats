@@ -18,6 +18,28 @@ get_header(); ?>
 </div>
 <!-- .lp__hero -->
 
+<!-- <div class="py-4">
+<div class="container">
+<?php
+$args = [
+    'posts_per_page' => 1,
+    'orderby' => 'date',
+    'order' => 'DESC',
+    'category_name' => 'news',
+];
+$posts = get_posts($args);
+foreach ($posts as $post): setup_postdata($post);
+$t = get_the_title();
+$p = get_the_permalink();
+?>
+<a class="lp__news" href="<?php echo $p; ?>">
+<span class="lp__news-ttl"><?php echo $t; ?></span>
+<span class="lp__news-arr"><i class="fas fa-angle-right"></i></span>
+</a>
+<?php endforeach; wp_reset_postdata(); ?>
+</div>
+</div> -->
+
 <section class="lp__case py-5">
 <div class="container">
 <h2 class="lp-ttl2"><span class="marks">様々な飲食店</span>で<br>ご利用いただいております</h2>
