@@ -8,12 +8,12 @@ get_header(); ?>
 <div class="container">
 <div class="price__card">
 <img src="<?php echo $img_url; ?>price_card_1.png" alt="初期費用" srcset="<?php echo $img_url; ?>price_card_1.png 1x, <?php echo $img_url; ?>price_card_1@2x.png 2x">
-<p class="text-md-center m-0 small mt-3">※オプション料・通信料・振込手数料はお客様負担となります。</p>
+<p class="text-md-center mb-0 small mt-3">※オプション料・通信料・振込手数料はお客様負担となります。<br>※クレジットカードでの決済の場合手数料3.6%+¥20が別途発生します。</p>
 </div>
 <!-- <div class="price__card mb-0">
 <img src="<?php echo $img_url; ?>price_card_2.png" alt="決済手数料" srcset="<?php echo $img_url; ?>price_card_2.png 1x, <?php echo $img_url; ?>price_card_2@2x.png 2x">
 </div> -->
-<p class="text-md-center m-0 small mt-3">※クレジットカードでの決済の場合手数料3.6%+¥20が別途発生します。</p>
+<!-- <p class="text-md-center m-0 small mt-3">※クレジットカードでの決済の場合手数料3.6%+¥20が別途発生します。</p> -->
 
 <h2 class="price-ttl">決済について</h2>
 <p>下記の決済方法がご利用いただけます。</p>
