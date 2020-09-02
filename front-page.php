@@ -161,7 +161,7 @@ $p = get_the_permalink();
 <div class="container">
 <p class="text-center font-weight-bold h5">さらに</p>
 <div class="lp__support-beginner">
-<p>はじめての方も安心して<br>テイクアクトを始められるように<img src="<?php echo $img_url; ?>icon_start.png" alt="初心者" srcset="<?php echo $img_url; ?>icon_start.png 1x, <?php echo $img_url; ?>icon_start@2x.png 2x"></p>
+<p>はじめての方も安心して<br>テイクアウトを始められるように<img src="<?php echo $img_url; ?>icon_start.png" alt="初心者" srcset="<?php echo $img_url; ?>icon_start.png 1x, <?php echo $img_url; ?>icon_start@2x.png 2x"></p>
 </div>
 <h2 class="lp-ttl2">TakeEatsが<br><span class="marks">すべてサポートいたします！</span></h2>
 <div class="lp__support__list">
