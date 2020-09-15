@@ -15,12 +15,14 @@ get_header(); ?>
 </div> -->
 <!-- <p class="text-md-center m-0 small mt-3">※クレジットカードでの決済の場合手数料3.6%+¥20が別途発生します。</p> -->
 
-<h2 class="price-ttl">決済について</h2>
+<h2 class="price-ttl">手数料について</h2>
 <p>下記の決済方法がご利用いただけます。</p>
 <div class="text-center">
 <img class="d-md-block d-none mx-auto" src="<?php echo $img_url; ?>price_table_pc.png" alt="" srcset="<?php echo $img_url; ?>price_table_pc.png 1x, <?php echo $img_url; ?>price_table_pc@2x.png 2x">
 <img class="d-md-none d-block mx-auto" src="<?php echo $img_url; ?>price_table_sp.png" alt="" srcset="<?php echo $img_url; ?>price_table_sp.png 1x, <?php echo $img_url; ?>price_table_sp@2x.png 2x">
 </div>
+
+<p class="text-center font-weight-bold h5 mt-4 mb-0">店舗数やご利用状況によって<br><span class="marks">特別プラン</span>をご提案いたします。<br>詳しくはお問い合わせ下さい。</p>
 
 <div class="">
 <h2 class="price-ttl">クレジットカード支払い分ご入金について</h2>

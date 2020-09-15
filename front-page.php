@@ -18,27 +18,27 @@ get_header(); ?>
 </div>
 <!-- .lp__hero -->
 
-<!-- <div class="py-4">
+<section id="homenews" class="home__news">
 <div class="container">
+<h2>NEWS</h2>
 <?php
 $args = [
     'posts_per_page' => 1,
     'orderby' => 'date',
-    'order' => 'DESC',
-    'category_name' => 'news',
+    'order' => 'DESC'
 ];
 $posts = get_posts($args);
-foreach ($posts as $post): setup_postdata($post);
-$t = get_the_title();
-$p = get_the_permalink();
-?>
-<a class="lp__news" href="<?php echo $p; ?>">
-<span class="lp__news-ttl"><?php echo $t; ?></span>
-<span class="lp__news-arr"><i class="fas fa-angle-right"></i></span>
+foreach ($posts as $post): setup_postdata($post); ?>
+<div class="home__news__inner">
+<a href="<?php the_permalink(); ?>">
+<time data-time="<?php the_time('Y-m-d'); ?>" class="small mr-2 pr-2"><?php the_time('Y.m.d'); ?></time>
+<p><?php the_title(); ?></p>
 </a>
+</div>
 <?php endforeach; wp_reset_postdata(); ?>
 </div>
-</div> -->
+</section>
+<!-- homenews -->
 
 <section class="lp__case py-5">
 <div class="container">
@@ -201,6 +201,7 @@ $p = get_the_permalink();
 <img class="d-md-none" src="<?php echo $img_url; ?>lp_price.png" alt="TakeEatsの料金" srcset="<?php echo $img_url; ?>lp_price.png 1x, <?php echo $img_url; ?>lp_price@2x.png 2x">
 <img class="d-md-inline d-none" src="<?php echo $img_url; ?>lp_price_pc.png" alt="TakeEatsの料金" srcset="<?php echo $img_url; ?>lp_price_pc.png 1x, <?php echo $img_url; ?>lp_price_pc@2x.png 2x">
 </div>
+<p class="text-center font-weight-bold py-3 h5">店舗数やご利用状況によって<br><span class="marks">特別プラン</span>をご提案いたします。<br>詳しくはお問い合わせ下さい。</p>
 <p class="small my-3 text-md-center">※オプションをご選択の場合は別途費用がかかります。
 <br>※クレジットカードでの決済の場合手数料3.6%が別途発生します。</p>
 <p class="mb-0 mt-5 text-center"><a class="font-weight-bold text-body" href="<?php echo $home; ?>/price/">料金を詳しくみる<i class="fas fa-caret-right ml-2"></i></a></p>
