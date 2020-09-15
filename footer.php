@@ -53,9 +53,9 @@ $img_url = get_template_directory_uri().'/dist/images/'; ?>
 <h3>企業情報</h3>
 <ul>
 <li><a href="<?php echo $home; ?>/contact/">お問い合わせ</a></li>
-<li><a href="<?php echo $home; ?>/company/">運営会社</a></li>
 <li><a href="<?php echo $home; ?>/privacy-policy/">プライバシーポリシー</a></li>
 <li><a href="<?php echo $home; ?>/law/">特定商取引法に基づく表記</a></li>
+<li><a href="https://lamp.jp" target="_blank">運営会社</a></li>
 <li><a href="<?php echo $home; ?>/term/">利用規約</a></li>
 </ul>
 </div>
