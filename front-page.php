@@ -271,7 +271,7 @@ foreach ($posts as $post): setup_postdata($post); ?>
 </div>
 </section>
 
-<!-- <section class="py-5">
+<section class="py-5">
 <div class="container single">
 <h2 class="mt-0">今こそ、テイクアウト（お持ち帰り）を始めるチャンス！</h2>
 <p>コロナ禍、アフターコロナの影響で外食を控える人が増え、中食に注目が集まっています。</p>
@@ -359,7 +359,7 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <p>お店でテイクアウト（お持ち帰り）をやっていることが表示されるように設定し、情報を正しく入力しておくことが大切です。</p>
 <p>Googleマイビジネスの情報は新規顧客の獲得だけでなく、既存顧客の方にも有益な情報を提供することにつながるため、必ず設定を行いましょう。</p>
 </div>
-</section> -->
+</section>
 
 </main>
 <!-- #main -->
