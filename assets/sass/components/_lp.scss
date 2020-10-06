@@ -460,11 +460,14 @@ span.marks {
     }
     &__list {
       @include media-breakpoint-up(lg) {
-        display: flex;
-        justify-content: center;
+        // display: flex;
+        // justify-content: center;
       }
       &-wrap {
         margin-bottom: 2rem;
+        display: flex;
+        justify-content: space-between;
+        }
         &:last-child {
           margin-bottom: 0;
           @include media-breakpoint-up(lg) {

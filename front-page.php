@@ -167,28 +167,30 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <div class="lp__support__list">
 <div class="lp__support__list-wrap">
 <div class="lp__support__list-inner">
-<img class="w-100" src="<?php echo $img_url; ?>support_1.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_1.png 1x, <?php echo $img_url; ?>support_1@2x.png 2x">
+<img class="w-100" src="<?php echo $img_url; ?>support_01_01.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_01_01.png 1x, <?php echo $img_url; ?>support_01_01@2x.png 2x">
 </div>
 <div class="lp__support__list-inner">
-<img class="w-100" src="<?php echo $img_url; ?>support_2.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_2.png 1x, <?php echo $img_url; ?>support_2@2x.png 2x">
+<img class="w-100" src="<?php echo $img_url; ?>support_01_02.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_01_02.png 1x, <?php echo $img_url; ?>support_01_02@2x.png 2x">
 </div>
 <div class="lp__support__list-inner">
-<img class="w-100" src="<?php echo $img_url; ?>support_3.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_3.png 1x, <?php echo $img_url; ?>support_3@2x.png 2x">
+<img class="w-100" src="<?php echo $img_url; ?>support_01_03.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_01_03.png 1x, <?php echo $img_url; ?>support_01_03@2x.png 2x">
+</div>
+<div class="lp__support__list-inner">
+<img class="w-100" src="<?php echo $img_url; ?>support_01_04.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_01_04.png 1x, <?php echo $img_url; ?>support_01_04@2x.png 2x">
 </div>
 </div>
 <div class="lp__support__list-wrap">
 <div class="lp__support__list-inner">
-<img class="w-100" src="<?php echo $img_url; ?>support_4.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_4.png 1x, <?php echo $img_url; ?>support_4@2x.png 2x">
+<img class="w-100" src="<?php echo $img_url; ?>support_02_01.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_02_01.png 1x, <?php echo $img_url; ?>support_02_01@2x.png 2x">
 </div>
 <div class="lp__support__list-inner">
-<a href="https://take-eats.jp" target="_blank"><img class="w-100" src="<?php echo $img_url; ?>support_5.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_5.png 1x, <?php echo $img_url; ?>support_5@2x.png 2x"></a>
+<img class="w-100" src="<?php echo $img_url; ?>support_02_02.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_02_02.png 1x, <?php echo $img_url; ?>support_02_02@2x.png 2x">
 </div>
 <div class="lp__support__list-inner">
-<img class="w-100" src="<?php echo $img_url; ?>support_6.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_6.png 1x, <?php echo $img_url; ?>support_6@2x.png 2x">
+<img class="w-100" src="<?php echo $img_url; ?>support_02_03.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_02_03.png 1x, <?php echo $img_url; ?>support_02_03@2x.png 2x">
 </div>
-<!-- <div class="lp__support__list-inner">
-<img class="w-100" src="<?php echo $img_url; ?>support_7.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_7.png 1x, <?php echo $img_url; ?>support_7@2x.png 2x">
-</div> -->
+<div class="lp__support__list-inner">
+<img class="w-100" src="<?php echo $img_url; ?>support_02_04.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_02_04.png 1x, <?php echo $img_url; ?>support_02_04@2x.png 2x">
 </div>
 </div>
 </div>
@@ -284,7 +286,7 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <p>外食を避ける傾向から、家や職場の近くでテイクアウト（お持ち帰り）ができるお店を探す人が増えており、全国の都道府県で緊急事態宣言が発令された4月には通常の約10倍にまで検索数が伸びています。</p>
 <p>それほど、テイクアウト（お持ち帰り）の需要は拡大しており、アフターコロナの中でも継続されると予想されます。</p>
 <p>新しい生活様式も提示される中で、3密を避けて食事ができるテイクアウト（お持ち帰り）はこれからも注目されるでしょう。</p>
-<h2>オフィス街でも人気のテイクアウト（お持ち帰り）</h2>
+<!-- <h2>オフィス街でも人気のテイクアウト（お持ち帰り）</h2>
 <p>京都のオフィス街では、これまでであれば、お昼時にはオフィスの近くのお店でランチを楽しむ人が大勢いましたが、その姿は一変しました。</p>
 <p>外食を避ける人が増えているため、多くのお店がお弁当などのテイクアウト（お持ち帰り）を始め、それを持ち帰って中食をする人が増えています。</p>
 <p>今後も感染対策の観点から、中食の需要が増えると考えられるでしょう。</p>
@@ -357,7 +359,7 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <p>テイクアウト（お持ち帰り）の場合も同様に、「エリア名＋テイクアウト」「近くのテイクアウト」などで検索された場合に正しく表示されるように設定しておくことで、売上アップにつながります。</p>
 <p>MEOではGoogleマイビジネスの設定が欠かせません。</p>
 <p>お店でテイクアウト（お持ち帰り）をやっていることが表示されるように設定し、情報を正しく入力しておくことが大切です。</p>
-<p>Googleマイビジネスの情報は新規顧客の獲得だけでなく、既存顧客の方にも有益な情報を提供することにつながるため、必ず設定を行いましょう。</p>
+<p>Googleマイビジネスの情報は新規顧客の獲得だけでなく、既存顧客の方にも有益な情報を提供することにつながるため、必ず設定を行いましょう。</p> -->
 </div>
 </section>
 
