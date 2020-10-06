@@ -42,7 +42,7 @@ foreach ($posts as $post): setup_postdata($post); ?>
 
 <section class="lp__case py-5">
 <div class="container">
-<h2 class="lp-ttl2"><span class="marks">様々な飲食店</span>で<br>ご利用いただいております</h2>
+<h2 class="lp-ttl2"><span class="marks">全国300店舗</span>で<br>ご利用いただいております</h2>
 </div>
 <div id="lpcase" class="lp__case-slide">
 <div class="lp__case-slide__inner">
@@ -98,7 +98,7 @@ foreach ($posts as $post): setup_postdata($post); ?>
 
 <section class="py-5 bg-light d-md-none">
 <div class="container">
-<h2 class="lp-ttl2">TakeEatsの<br><span class="marks">テイクアウト</span>って？</h2>
+<h2 class="lp-ttl2">TakeEatsの<br><span class="marks">モバイルオーダー</span>って？</h2>
 </div>
 <img class="w-100" src="<?php echo $img_url; ?>about_main_sp.png" alt="TakeEatsの流れ" srcset="<?php echo $img_url; ?>about_main_sp.png 1x, <?php echo $img_url; ?>about_main_sp@2x.png 2x">
 <div class="container">
@@ -118,7 +118,7 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <div class="lp__feature__list">
 <div class="lp__feature__list__inner">
 <div class="lp__feature__list__inner-wrap">
-<h3 class="lp-ttl2">初期導入費・月額利用料<br><span class="marks">0円だから</span><br>無料で始められる！</h3>
+<h3 class="lp-ttl2">初期導入費・月額利用料<br><span class="marks">0円だから</span><br>リスクなく導入！</h3>
 <img src="<?php echo $img_url; ?>lp_feature_1.png" alt="初期導入費・月額利用料0円" srcset="<?php echo $img_url; ?>lp_feature_1.png 1x, <?php echo $img_url; ?>lp_feature_1@2x.png 2x">
 </div>
 <p>初期導入費・月額利用料は全て無料！店舗が負担するのは注文時のサービス手数料のみで、固定費はかかりません。（※オプションをご選択の場合は別途費用）</p>
@@ -126,10 +126,10 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <!-- .lp__feature__list__inner -->
 <div class="lp__feature__list__inner">
 <div class="lp__feature__list__inner-wrap">
-<h3 class="lp-ttl2"><span class="marks">事前予約/決済</span>で<br>キャンセル防止</h3>
-<img src="<?php echo $img_url; ?>lp_feature_2.png" alt="キャンセル防止" srcset="<?php echo $img_url; ?>lp_feature_2.png 1x, <?php echo $img_url; ?>lp_feature_2@2x.png 2x">
+<h3 class="lp-ttl2"><span class="marks">事前予約/決済</span>で<br>安心・安全</h3>
+<img src="<?php echo $img_url; ?>lp_feature_2.png" alt="安心・安全" srcset="<?php echo $img_url; ?>lp_feature_2.png 1x, <?php echo $img_url; ?>lp_feature_2@2x.png 2x">
 </div>
-<p>クレジットカードでの事前決済で、商品の無断キャンセルを防止。廃棄による無駄なコストを削減できます。</p>
+<p>店舗サイト側で事前に決済ならびに予約を行っていただくため、電話対応の手間や未回収を防げ安全に効率よく運営ができます。</p>
 </div>
 <!-- .lp__feature__list__inner -->
 <div class="lp__feature__list__inner">
@@ -160,11 +160,11 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <section class="py-5 bg-light lp__support">
 <div class="container">
 <p class="text-center font-weight-bold h5">さらに</p>
-<div class="lp__support-beginner">
-<p>はじめての方も安心して<br>テイクアウトを始められるように<img src="<?php echo $img_url; ?>icon_start.png" alt="初心者" srcset="<?php echo $img_url; ?>icon_start.png 1x, <?php echo $img_url; ?>icon_start@2x.png 2x"></p>
-</div>
 <h2 class="lp-ttl2">TakeEatsが<br><span class="marks">すべてサポートいたします！</span></h2>
 <div class="lp__support__list">
+<div class="text-center">
+<img class="" src="<?php echo $img_url; ?>support_ttl_01.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_ttl_01.png 1x, <?php echo $img_url; ?>support_ttl_01@2x.png 2x">
+</div>
 <div class="lp__support__list-wrap">
 <div class="lp__support__list-inner">
 <img class="w-100" src="<?php echo $img_url; ?>support_01_01.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_01_01.png 1x, <?php echo $img_url; ?>support_01_01@2x.png 2x">
@@ -178,6 +178,9 @@ foreach ($posts as $post): setup_postdata($post); ?>
 <div class="lp__support__list-inner">
 <img class="w-100" src="<?php echo $img_url; ?>support_01_04.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_01_04.png 1x, <?php echo $img_url; ?>support_01_04@2x.png 2x">
 </div>
+</div>
+<div class="text-center">
+<img class="" src="<?php echo $img_url; ?>support_ttl_02.png" alt="TakeEatsのサポート内容" srcset="<?php echo $img_url; ?>support_ttl_02.png 1x, <?php echo $img_url; ?>support_ttl_02@2x.png 2x">
 </div>
 <div class="lp__support__list-wrap">
 <div class="lp__support__list-inner">

@@ -1,4 +1,5 @@
 // 汎用
+
 span.marks {
   background: linear-gradient(transparent 60%, #f9cf41 60%);
 }
@@ -7,6 +8,7 @@ span.marks {
   &__checkbox {
     display: none;
   }
+
   &__icon {
     z-index: 1;
     position: absolute;
@@ -20,9 +22,10 @@ span.marks {
     @include media-breakpoint-up(lg) {
       display: none;
     }
+
     &-parts,
-    &-parts:before,
-    &-parts:after {
+    &-parts:after,
+    &-parts:before {
       background-color: #000;
       display: block;
       width: 26px;
@@ -35,17 +38,21 @@ span.marks {
       margin: auto;
       transition: all 0.3s;
     }
-    &-parts:before,
-    &-parts:after {
+
+    &-parts:after,
+    &-parts:before {
       content: "";
     }
+
     &-parts:before {
       top: 16px;
     }
+
     &-parts:after {
       top: -16px;
     }
   }
+
   &__menu {
     position: fixed;
     background: $white;
@@ -69,8 +76,10 @@ span.marks {
       justify-content: start;
       align-items: center;
     }
+
     li {
       list-style: none;
+
       a {
         display: block;
         color: $body-color;
@@ -85,18 +94,21 @@ span.marks {
         }
       }
     }
+
     &-cta {
       margin-top: 1rem;
       padding: 0.25rem 1rem;
       @include media-breakpoint-up(lg) {
         display: none;
       }
+
       a {
         position: relative;
         background-color: #ff5a11;
         color: $white !important;
         font-weight: bold;
         border-bottom: 0 !important;
+
         .fas {
           position: absolute;
           top: 50%;
@@ -105,15 +117,18 @@ span.marks {
         }
       }
     }
+
     &-request {
       padding: 0.25rem 1rem;
       @include media-breakpoint-up(lg) {
         display: none;
       }
+
       a {
         position: relative;
         background-color: #fae08a;
         border-bottom: 0 !important;
+
         .fas {
           position: absolute;
           top: 50%;
@@ -122,11 +137,13 @@ span.marks {
         }
       }
     }
+
     &-tel {
       @include media-breakpoint-up(lg) {
         display: none;
       }
       padding: 0.25rem 1rem;
+
       a {
         font-weight: bold;
         margin: 0 !important;
@@ -134,19 +151,23 @@ span.marks {
       }
     }
   }
+
   &__checkbox:checked ~ {
     .drawer__menu {
       right: 0;
     }
+
     .drawer__icon {
       .drawer__icon-parts {
         background: transparent;
       }
+
       .drawer__icon-parts:before {
         -webkit-transform: rotate(-45deg);
         transform: rotate(-45deg);
         top: 0;
       }
+
       .drawer__icon-parts:after {
         -webkit-transform: rotate(45deg);
         transform: rotate(45deg);
@@ -155,7 +176,6 @@ span.marks {
     }
   }
 }
-
 // メイン
 .lp {
   &-ttl2 {
@@ -187,6 +207,7 @@ span.marks {
       max-width: 1200px;
     }
   }
+
   &__nav {
     position: relative;
     overflow: hidden;
@@ -201,10 +222,12 @@ span.marks {
     @include media-breakpoint-up(lg) {
       padding: 1rem 3rem;
     }
+
     & > h1 {
       z-index: 1;
       margin: 0;
       font-size: 0;
+
       img {
         display: inline-block;
         vertical-align: middle;
@@ -212,6 +235,7 @@ span.marks {
         margin-right: 0.5rem;
         max-width: 135px;
       }
+
       span {
         display: inline-block;
         vertical-align: middle;
@@ -221,11 +245,13 @@ span.marks {
         line-height: 1.25;
       }
     }
+
     &-btn {
       padding-left: 2rem;
       @include media-breakpoint-down(md) {
         display: none;
       }
+
       a {
         position: relative;
         display: block;
@@ -236,6 +262,7 @@ span.marks {
         font-weight: bold;
         padding: 1.3rem 3rem;
         box-shadow: 0 0 5px rgba($body-color, 0.1);
+
         .fas {
           position: absolute;
           top: 50%;
@@ -265,6 +292,7 @@ span.marks {
         background-image: url("../images/mv_lp_pc@2x.png");
       }
     }
+
     &-wrap {
       @include media-breakpoint-up(lg) {
         display: flex;
@@ -272,12 +300,14 @@ span.marks {
         align-items: center;
       }
     }
+
     &-txt {
       @include media-breakpoint-up(lg) {
         width: 350px;
         height: auto;
       }
     }
+
     &-demo {
       overflow: hidden;
       text-align: center;
@@ -285,6 +315,7 @@ span.marks {
       @include media-breakpoint-up(lg) {
         margin-left: 5rem;
       }
+
       img {
         margin-bottom: -10rem;
         @include media-breakpoint-up(lg) {
@@ -300,13 +331,16 @@ span.marks {
     align-items: stretch;
     color: $body-color;
     font-size: $font-size-sm;
+
     & > span {
       display: block;
     }
+
     &-ttl {
       width: 90%;
       line-height: normal;
     }
+
     &-arr {
       width: 10%;
       align-self: center;
@@ -319,6 +353,7 @@ span.marks {
       &__inner {
         position: relative;
         overflow: hidden;
+
         &-balloon {
           position: relative;
           padding: 0.5em;
@@ -329,6 +364,7 @@ span.marks {
           font-weight: bold;
           font-size: $font-size-sm;
           margin: 0 auto 1rem;
+
           &::before {
             content: "";
             position: absolute;
@@ -339,14 +375,17 @@ span.marks {
             border-top: 8px solid $light;
           }
         }
+
         &-logo {
           display: flex;
           justify-content: center;
           align-items: center;
           width: 100%;
           height: 75px;
+
           span {
             display: block;
+
             img {
               display: block;
               margin: auto;
@@ -356,6 +395,7 @@ span.marks {
       }
     }
   }
+
   &__feature {
     &__list {
       @include media-breakpoint-up(lg) {
@@ -363,6 +403,7 @@ span.marks {
         justify-content: space-between;
         align-items: stretch;
       }
+
       &__inner {
         box-sizing: border-box;
         padding: 1.5rem 1rem;
@@ -372,15 +413,18 @@ span.marks {
           width: 32%;
           border-bottom: solid 3px $body-color;
         }
+
         &:nth-child(2) {
           margin-left: auto;
           @include media-breakpoint-up(lg) {
             margin-left: 0;
           }
         }
+
         &:last-child {
           border-bottom: solid 3px $body-color;
         }
+
         h3 {
           font-size: 1.4rem;
           @include media-breakpoint-up(lg) {
@@ -388,21 +432,25 @@ span.marks {
             min-height: 4.4em;
           }
         }
+
         img {
           display: block;
           margin: 1.5rem auto;
         }
+
         p {
           margin: 0;
         }
       }
     }
   }
+
   &__cta {
     z-index: 1;
     position: relative;
     background-color: $white;
     padding-bottom: 3rem;
+
     &::after {
       position: absolute;
       bottom: -2rem;
@@ -414,6 +462,7 @@ span.marks {
       height: 3rem;
       background-color: $white;
     }
+
     &__box {
       box-sizing: border-box;
       padding: 1rem;
@@ -423,12 +472,14 @@ span.marks {
         padding: 2rem;
         margin: 0 auto;
       }
+
       h2 {
         text-align: center;
         font-size: 1.4rem;
         color: #ff5a11;
         font-weight: bold;
         margin-bottom: 1em;
+
         span {
           display: block;
           font-size: 1rem;
@@ -437,9 +488,11 @@ span.marks {
       }
     }
   }
+
   &__support {
     &-beginner {
       text-align: center;
+
       p {
         position: relative;
         background-color: $white;
@@ -451,6 +504,7 @@ span.marks {
         @include media-breakpoint-up(lg) {
           max-width: 480px;
         }
+
         img {
           position: absolute;
           left: -1rem;
@@ -458,29 +512,36 @@ span.marks {
         }
       }
     }
+
     &__list {
-      @include media-breakpoint-up(lg) {
-        // display: flex;
-        // justify-content: center;
-      }
       &-wrap {
-        margin-bottom: 2rem;
+        margin: 2rem 0;
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
+
+        @include media-breakpoint-up(lg) {
+          justify-content: center;
         }
+
         &:last-child {
           margin-bottom: 0;
           @include media-breakpoint-up(lg) {
             margin-bottom: 0;
-            margin-left: 3rem;
           }
         }
       }
+
       &-inner {
-        margin-bottom: 1rem;
+        margin: 0 0 1rem 0;
+
+        @include media-breakpoint-up(lg) {
+          margin: 0 .5rem 1rem .5rem;
+        }
       }
     }
   }
+
   &__form {
     position: relative;
     background-color: #f9cf41;
@@ -488,21 +549,25 @@ span.marks {
     padding-top: 92px;
     padding-bottom: 2rem;
     overflow: visible;
+
     .container {
       @include media-breakpoint-up(lg) {
         max-width: 768px;
         margin: 0 auto;
       }
     }
+
     & > img {
       position: absolute;
       top: -92px;
       left: 50%;
       transform: translateX(-50%);
     }
+
     &-top {
       padding: 2rem 0;
     }
+
     h3 {
       background-color: #ff8811;
       color: $white;
@@ -512,18 +577,21 @@ span.marks {
       font-weight: bold;
       margin-bottom: 0;
     }
+
     .wpcf7-form {
       background-color: $white;
       padding-bottom: 2rem;
     }
+
     .form__table {
-      th,
-      td {
+      td,
+      th {
         background-color: $white;
         padding: 0 1rem;
         @include media-breakpoint-up(lg) {
           padding: 1rem;
         }
+
         &.table-ttl {
           background-color: $light;
           padding: 0.5rem 1rem;
@@ -535,11 +603,13 @@ span.marks {
         }
       }
     }
+
     .wpcf7-list-item-label {
       a {
         text-decoration: underline;
       }
     }
+
     .wpcf7-submit {
       font-size: 1.2rem;
     }
@@ -549,6 +619,7 @@ span.marks {
 .footer-ctabtn {
   bottom: -100%;
   transition: all 0.3s;
+
   &:hover {
     text-decoration: none;
     color: $white;

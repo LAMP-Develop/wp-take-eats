@@ -14926,7 +14926,7 @@ span.marks {
   @media (min-width: 992px) {
     .drawer__icon {
       display: none; } }
-  .drawer__icon-parts, .drawer__icon-parts:before, .drawer__icon-parts:after {
+  .drawer__icon-parts, .drawer__icon-parts:after, .drawer__icon-parts:before {
     background-color: #000;
     display: block;
     width: 26px;
@@ -14938,7 +14938,7 @@ span.marks {
     bottom: 0;
     margin: auto;
     transition: all 0.3s; }
-  .drawer__icon-parts:before, .drawer__icon-parts:after {
+  .drawer__icon-parts:after, .drawer__icon-parts:before {
     content: ""; }
   .drawer__icon-parts:before {
     top: 16px; }
@@ -15296,22 +15296,25 @@ span.marks {
       left: -1rem;
       bottom: -1rem; }
 
-@media (min-width: 992px) {
-  .lp__support__list {
-    display: flex;
-    justify-content: center; } }
-
 .lp__support__list-wrap {
-  margin-bottom: 2rem; }
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  @media (min-width: 992px) {
+    .lp__support__list-wrap {
+      justify-content: center; } }
   .lp__support__list-wrap:last-child {
     margin-bottom: 0; }
     @media (min-width: 992px) {
       .lp__support__list-wrap:last-child {
-        margin-bottom: 0;
-        margin-left: 3rem; } }
+        margin-bottom: 0; } }
 
 .lp__support__list-inner {
-  margin-bottom: 1rem; }
+  margin: 0 0 1rem 0; }
+  @media (min-width: 992px) {
+    .lp__support__list-inner {
+      margin: 0 .5rem 1rem .5rem; } }
 
 .lp__form {
   position: relative;
@@ -15342,23 +15345,23 @@ span.marks {
   .lp__form .wpcf7-form {
     background-color: #fff;
     padding-bottom: 2rem; }
-  .lp__form .form__table th,
-  .lp__form .form__table td {
+  .lp__form .form__table td,
+  .lp__form .form__table th {
     background-color: #fff;
     padding: 0 1rem; }
     @media (min-width: 992px) {
-      .lp__form .form__table th,
-      .lp__form .form__table td {
+      .lp__form .form__table td,
+      .lp__form .form__table th {
         padding: 1rem; } }
-    .lp__form .form__table th.table-ttl,
-    .lp__form .form__table td.table-ttl {
+    .lp__form .form__table td.table-ttl,
+    .lp__form .form__table th.table-ttl {
       background-color: #f3f2f0;
       padding: 0.5rem 1rem;
       font-weight: normal;
       margin-bottom: 1rem; }
       @media (min-width: 992px) {
-        .lp__form .form__table th.table-ttl,
-        .lp__form .form__table td.table-ttl {
+        .lp__form .form__table td.table-ttl,
+        .lp__form .form__table th.table-ttl {
           padding: 1rem; } }
   .lp__form .wpcf7-list-item-label a {
     text-decoration: underline; }
